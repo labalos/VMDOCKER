@@ -1,0 +1,53 @@
+2026-02-04 19:24:40.635 [info] Extension host with pid 30592 started
+2026-02-04 19:24:40.668 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock': Lock acquired.
+2026-02-04 19:24:40.957 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-02-04 19:24:40.960 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-02-04 19:24:40.960 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-02-04 19:24:40.961 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2026-02-04 19:24:42.107 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-02-04 19:24:42.109 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-02-04 19:24:43.049 [info] Eager extensions activated
+2026-02-04 19:24:43.050 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-04 19:24:43.052 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-04 19:24:43.053 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-02-04 19:34:42.310 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-02-04 19:34:47.604 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-04 19:34:47.605 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-04 19:34:47.605 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-02-04 22:13:37.410 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-02-04 22:13:37.411 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2026-02-05 14:38:45.746 [error] Error: read ETIMEDOUT
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+    at TLSWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-02-05 15:00:49.473 [error] Error: read ETIMEDOUT
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+    at TLSWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-02-05 15:32:21.863 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-02-05 15:32:21.871 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-02-05 15:32:22.090 [error] Canceled: Canceled
+    at new XT (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:29:153636)
+    at Uy.U (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:29:158246)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:29:155740)
+    at mw.g (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:32221)
+    at mw.executeCommand (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at r.registerCommand.description (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31055)
+    at mw.h (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:32741)
+    at mw.g (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31818)
+    at mw.executeCommand (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at Object.executeCommand (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:172:37254)
+    at nT (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:40:9860)
+    at xe (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:4:1357)
+    at pe (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:3:6849)
+    at Immediate.<anonymous> (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:3:6727)
+    at processImmediate (node:internal/timers:483:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2026-02-05 15:32:22.102 [error] Error: Channel has been closed
+    at s (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:118:2431)
+    at Object.appendLine (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:118:2570)
+    at D.logOutputMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:292566)
+    at D.info (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:292299)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:510402)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+2026-02-05 15:32:22.105 [info] Extension host with pid 30592 exiting with code 0

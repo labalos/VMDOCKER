@@ -1,0 +1,33 @@
+/* ======================
+   PALETA DE COLORES 
+   =====================*/
+
+   :root {
+    /* Colores principales */
+    --color-primary: #1A73E8;      /* Azul profesional - botones, links */
+    --color-secondary: #F6A623;    /* Naranja construcción - acentos, CTAs */
+    
+    /* Neutros */
+    --color-dark: #2E2E2E;         /* Gris carbón - textos */
+    --color-light: #F5F5F5;        /* Gris claro - fondos secciones */
+    --color-white: #FFFFFF;        /* Blanco - fondo principal */
+    
+    /* Derivados para estados */
+    --color-primary-hover: #1557b0;
+    --color-secondary-hover: #d48a1a;
+    --color-overlay: rgba(0, 0, 0, 0.5);
+    
+    /* Tipografía */
+    --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    
+    /* Espaciado */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    /* Bordes */
+    --border-radius: 4px;
+    --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }

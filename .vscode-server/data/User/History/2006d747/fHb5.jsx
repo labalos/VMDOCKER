@@ -1,0 +1,167 @@
+import { useEffect, useState } from "react";
+
+export default function Proyectos() {
+  const [proyectos, setProyectos] = useState([]);
+  const [titulo, setTitulo] = useState("");
+  const [descripcion, setDescripcion] = useState("");
+  const [imagen, setImagen] = useState("");
+  const [categoria, setCategoria] = useState("");
+  const [ubicacion, setUbicacion] = useState("");
+  const [fecha, setFecha] = useState("");
+  const [editandoId, setEditandoId] = useState(null);
+  // Cargar proyectos al iniciar
+  useEffect(() => {
+    fetch("http://192.168.1.28:3000/proyectos")
+  .then(res => res.json())
+  .then(data => {
+    console.log("Datos recibidos del backend:", data)
+    setProyectos(data)
+  })
+  .catch(err => console.error("Error cargando proyectos:", err))
+      .catch(err => console.error("Error cargando proyectos:", err));
+  }, []);
+
+  return (
+    <div>
+      <h1>Lista de Proyectos</h1>
+
+      <form
+  onSubmit={async (e) => {
+    e.preventDefault();
+  
+    const proyecto = {
+      titulo,
+      descripcion,
+      imagen,
+      categoria,
+      ubicacion,
+      fecha
+    };
+  
+    if (editandoId) {
+      // MODO EDITAR
+      const res = await fetch(`http://192.168.1.28:3000/proyectos/${editandoId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(proyecto)
+      });
+  
+      const actualizado = await res.json();
+  
+      setProyectos(
+        proyectos.map(p => p._id === editandoId ? actualizado : p)
+      );
+  
+      setEditandoId(null);
+  
+    } else {
+      // MODO CREAR
+      const res = await fetch("http://192.168.1.28:3000/proyectos", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(proyecto)
+      });
+  
+      const nuevo = await res.json();
+      setProyectos([...proyectos, nuevo]);
+    }
+  
+    // Limpiar formulario
+    setTitulo("");
+    setDescripcion("");
+    setImagen("");
+    setCategoria("");
+    setUbicacion("");
+    setFecha("");
+  }}
+>
+  <h2>Crear nuevo proyecto</h2>
+
+  <input
+    type="text"
+    placeholder="Título"
+    value={titulo}
+    onChange={(e) => setTitulo(e.target.value)}
+  />
+
+  <input
+    type="text"
+    placeholder="Descripción"
+    value={descripcion}
+    onChange={(e) => setDescripcion(e.target.value)}
+  />
+
+  <input
+    type="text"
+    placeholder="URL de imagen"
+    value={imagen}
+    onChange={(e) => setImagen(e.target.value)}
+  />
+
+  <input
+    type="text"
+    placeholder="Categoría"
+    value={categoria}
+    onChange={(e) => setCategoria(e.target.value)}
+  />
+
+  <input
+    type="text"
+    placeholder="Ubicación"
+    value={ubicacion}
+    onChange={(e) => setUbicacion(e.target.value)}
+  />
+
+  <input
+    type="date"
+    value={fecha}
+    onChange={(e) => setFecha(e.target.value)}
+  />
+
+<button type="submit">
+  {editandoId ? "Guardar cambios" : "Crear proyecto"}
+</button>
+</form>
+
+      {proyectos.length === 0 && <p>No hay proyectos</p>}
+
+      <ul>
+      {proyectos.map(p => (
+  <li key={p._id}>
+    <h2>{p.titulo}</h2>
+    <p>{p.descripcion}</p>
+
+    <button
+      onClick={() => {
+        setTitulo(p.titulo);
+        setDescripcion(p.descripcion);
+        setImagen(p.imagen);
+        setCategoria(p.categoria);
+        setUbicacion(p.ubicacion);
+        setFecha(p.fecha?.slice(0, 10));
+        setEditandoId(p._id);
+      }}
+    >
+      Editar
+    </button>
+
+    <button
+      onClick={async () => {
+        const res = await fetch(`http://192.168.1.28:3000/proyectos/${p._id}`, {
+          method: "DELETE"
+        });
+
+        if (res.ok) {
+          setProyectos(proyectos.filter(proj => proj._id !== p._id));
+        }
+      }}
+    >
+      Eliminar
+    </button>
+  </li>
+))}   
+ 
+</ul>
+    </div>
+  );
+}

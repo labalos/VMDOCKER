@@ -1,0 +1,7 @@
+2026-02-07 12:51:15.353 [info] Can't use the Electron fetcher in this environment.
+2026-02-07 12:51:15.353 [info] Using the Node fetch fetcher.
+2026-02-07 12:51:15.353 [info] Initializing Git extension service.
+2026-02-07 12:51:15.354 [info] Successfully activated the vscode.git extension.
+2026-02-07 12:51:15.354 [info] Enablement state of the vscode.git extension: true.
+2026-02-07 12:51:15.354 [info] Successfully registered Git commit message provider.
+2026-02-07 12:51:15.702 [info] Logged in as labalos

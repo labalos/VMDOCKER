@@ -1,0 +1,6 @@
+@import '../styles/variables.css';
+
+.pageContent {
+    padding-top: var(--space-20); /* Espacio para el navbar fijo */
+    min-height: 100vh;
+  }

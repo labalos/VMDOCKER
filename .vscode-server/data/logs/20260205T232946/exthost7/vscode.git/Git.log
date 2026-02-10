@@ -1,0 +1,5 @@
+2026-02-07 12:49:14.794 [info] [main] Nivel de registro: Info
+2026-02-07 12:49:14.794 [info] [main] Validando git encontrado en: "git"
+2026-02-07 12:49:14.794 [info] [main] Usando git "2.43.0" de "git"
+2026-02-07 12:49:14.794 [info] [Model][doInitialScan] Initial repository scan started
+2026-02-07 12:49:14.794 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

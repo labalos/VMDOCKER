@@ -1,0 +1,14 @@
+2026-02-06 15:11:21.118 [info] Extension host with pid 47145 started
+2026-02-06 15:11:21.331 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-02-06 15:11:21.528 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-02-06 15:11:21.529 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-02-06 15:11:21.835 [info] Eager extensions activated
+2026-02-06 15:11:21.836 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:21.836 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:21.837 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:21.837 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:21.837 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:21.838 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:21.838 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:43.814 [info] Extension host terminating: received terminate message from renderer
+2026-02-06 15:11:43.872 [info] Extension host with pid 47145 exiting with code 0

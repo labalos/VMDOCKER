@@ -1,0 +1,309 @@
+@import '../styles/variables.css';
+
+/* ==========================================
+   NAVBAR BASE
+   ========================================== */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 0;
+  transition: all 0.4s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ==========================================
+   LOGO
+   ========================================== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+  background: var(--color-secondary);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.logoHighlight {
+  color: var(--color-secondary);
+}
+
+/* ==========================================
+   OPCIÓN B: TRANSPARENTE → BLANCO
+   ========================================== */
+
+/* Estado inicial: transparente, texto blanco */
+.navbar:not(.glass) {
+  background-color: transparent;
+}
+
+.navbar:not(.glass) .logo {
+  color: var(--color-white);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar:not(.glass) .navLink {
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar:not(.glass) .navLink:hover,
+.navbar:not(.glass) .navLink.active {
+  color: var(--color-white);
+}
+
+.navbar:not(.glass) .hamburger span {
+  background-color: var(--color-white);
+}
+
+/* Estado scrolled: blanco sólido, texto oscuro */
+.navbar:not(.glass).scrolled {
+  background-color: var(--color-white);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 0;
+}
+
+.navbar:not(.glass).scrolled .logo {
+  color: var(--color-dark);
+  text-shadow: none;
+}
+
+.navbar:not(.glass).scrolled .navLink {
+  color: #666;
+  text-shadow: none;
+}
+
+.navbar:not(.glass).scrolled .navLink:hover,
+.navbar:not(.glass).scrolled .navLink.active {
+  color: var(--color-primary);
+}
+
+.navbar:not(.glass).scrolled .hamburger span {
+  background-color: var(--color-dark);
+}
+
+/* ==========================================
+   OPCIÓN C: GLASSMORPHISM (CRISTAL)
+   ========================================== */
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem 0;
+}
+
+.glass.scrolled {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Glass: texto siempre blanco con sombra */
+.glass .logo,
+.glass .navLink {
+  color: var(--color-white);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.glass .navLink:hover,
+.glass .navLink.active {
+  color: var(--color-secondary);
+}
+
+.glass .hamburger span {
+  background-color: var(--color-white);
+}
+
+/* Glass scrolled: texto oscuro */
+.glass.scrolled .logo,
+.glass.scrolled .navLink {
+  color: var(--color-dark);
+  text-shadow: none;
+}
+
+.glass.scrolled .navLink:hover,
+.glass.scrolled .navLink.active {
+  color: var(--color-primary);
+}
+
+.glass.scrolled .hamburger span {
+  background-color: var(--color-dark);
+}
+
+/* ==========================================
+   ELEMENTOS COMUNES
+   ========================================== */
+
+.navLink {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+/* Underline animado */
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after,
+.navLink.active::after {
+  width: 100%;
+}
+
+.ctaButton {
+  padding: 0.6rem 1.5rem;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(246, 166, 35, 0.3);
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(246, 166, 35, 0.4);
+}
+
+/* ==========================================
+   MOBILE
+   ========================================== */
+
+.desktopMenu {
+  display: none;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.mobileOpen {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobileLink {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 500;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobileCta {
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .desktopMenu {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+/* ==========================================
+   HAMBURGER ANIMATION - PREMIUM
+   ========================================== */
+
+   .hamburger span {
+    transform-origin: center;
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1),
+                opacity 0.25s ease;
+  }
+  
+  /* Estado activo → forma de X */
+  .active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  

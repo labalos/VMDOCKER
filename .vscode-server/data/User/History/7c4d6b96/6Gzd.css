@@ -1,0 +1,4 @@
+.pageContent {
+    padding-top: 80px; /* Espacio para el navbar fijo */
+    min-height: 100vh;
+  }

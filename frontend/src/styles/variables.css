@@ -1,0 +1,132 @@
+/* ==========================================
+   SISTEMA DE DISEÑO 
+   ========================================== */
+
+   :root {
+    /* ======================================
+       COLORES
+       =======================================*/
+    
+    /* Primarios */
+    --color-primary: #1A73E8;
+    --color-primary-hover: #1557b0;
+    --color-primary-light: #e8f4fd;
+    
+    /* Secundarios */
+    --color-secondary: #F6A623;
+    --color-secondary-hover: #d48a1a;
+    --color-secondary-light: #fff8e8;
+    
+    /* Neutros */
+    --color-dark: #1a1a1a;
+    --color-gray-800: #2e2e2e;
+    --color-gray-600: #666666;
+    --color-gray-400: #888888;
+    --color-gray-300: #cccccc;
+    --color-gray-200: #e0e0e0;
+    --color-gray-100: #f5f5f5;
+    --color-light: #f8f8f8;
+    --color-white: #FFFFFF;
+    
+    /* Estados */
+    --color-success: #38a169;
+    --color-success-light: #f0fff4;
+    --color-error: #e53e3e;
+    --color-error-light: #fff5f5;
+    --color-warning: #f6a623;
+    
+    /* ==========================================
+       TIPOGRAFÍA
+       ========================================== */
+    
+    --font-main: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    /* Tamaños */
+    --text-xs: 0.6875rem;    /* 11px */
+    --text-sm: 0.75rem;      /* 12px */
+    --text-base: 0.8125rem;  /* 13px */
+    --text-md: 0.875rem;     /* 14px */
+    --text-lg: 1rem;         /* 16px */
+    --text-xl: 1.125rem;     /* 18px */
+    --text-2xl: 1.25rem;     /* 20px */
+    --text-3xl: 1.5rem;      /* 24px */
+    --text-4xl: 2rem;        /* 32px */
+    
+    /* Pesos */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    
+    /* Altura de línea */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    
+    /* Espaciado entre letras */
+    --tracking-tight: -0.025em;
+    --tracking-normal: 0;
+    --tracking-wide: 0.025em;
+    --tracking-wider: 0.05em;
+    --tracking-widest: 0.1em;
+    
+    /* ==========================================
+       ESPACIADO
+       ========================================== */
+    
+    --space-1: 0.25rem;   /* 4px */
+    --space-2: 0.5rem;    /* 8px */
+    --space-3: 0.75rem;   /* 12px */
+    --space-4: 1rem;      /* 16px */
+    --space-5: 1.25rem;   /* 20px */
+    --space-6: 1.5rem;    /* 24px */
+    --space-8: 2rem;      /* 32px */
+    --space-10: 2.5rem;   /* 40px */
+    --space-12: 3rem;     /* 48px */
+    --space-16: 4rem;     /* 64px */
+    --space-20: 5rem;     /* 80px */
+    --space-24: 6rem;     /* 96px */
+    
+    /* ==========================================
+       BORDES Y SOMBRAS
+       ========================================== */
+    
+    --radius-sm: 3px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-2xl: 16px;
+    --radius-full: 9999px;
+    
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+    --shadow-lg: 0 8px 15px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 12px 25px rgba(0, 0, 0, 0.15);
+    --shadow-2xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+    
+    /* ==========================================
+       TRANSICIONES
+       ========================================== */
+    
+    --transition-fast: 150ms ease;
+    --transition-normal: 250ms ease;
+    --transition-slow: 350ms ease;
+    
+    /* ==========================================
+       Z-INDEX
+       ========================================== */
+    
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal-backdrop: 400;
+    --z-modal: 500;
+    --z-popover: 600;
+    --z-tooltip: 700;
+    
+      /* ==========================================
+     ALTURA DEL NAVBAR
+     ========================================== */
+  --navbar-height: 80px;
+  }

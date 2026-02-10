@@ -1,0 +1,122 @@
+2026-02-05 15:27:26.493 [info] Can't use the Electron fetcher in this environment.
+2026-02-05 15:27:26.493 [info] Using the Node fetch fetcher.
+2026-02-05 15:27:26.494 [info] Initializing Git extension service.
+2026-02-05 15:27:26.556 [info] Successfully activated the vscode.git extension.
+2026-02-05 15:27:26.560 [info] Enablement state of the vscode.git extension: true.
+2026-02-05 15:27:26.560 [info] Successfully registered Git commit message provider.
+2026-02-05 15:27:29.564 [info] Logged in as labalos
+2026-02-05 15:27:30.437 [info] Got Copilot token for labalos
+2026-02-05 15:27:30.641 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 15:27:30.641 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-05 15:27:30.658 [info] Registering default platform agent...
+2026-02-05 15:27:30.904 [info] Fetched model metadata in 455ms f276f3bf-fee1-4b27-845c-0ac51e7ea3c6
+2026-02-05 15:27:30.917 [info] activationBlocker from 'languageModelAccess' took for 2901ms
+2026-02-05 15:42:32.476 [info] Fetched model metadata in 371ms bbd3f6e1-f785-4fd4-be03-254cfe19dc0a
+2026-02-05 15:52:30.497 [info] Logged in as labalos
+2026-02-05 15:52:31.154 [info] Got Copilot token for labalos
+2026-02-05 15:52:31.231 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 16:17:31.209 [info] Logged in as labalos
+2026-02-05 16:17:31.890 [info] Got Copilot token for labalos
+2026-02-05 16:17:31.969 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 16:17:32.375 [info] Fetched model metadata in 371ms a3131b12-ad9c-4019-a869-6b5115b4333c
+2026-02-05 16:32:32.819 [info] Fetched model metadata in 333ms 80b11686-d5b1-4ba8-8a66-011915710c8a
+2026-02-05 16:42:31.928 [info] Logged in as labalos
+2026-02-05 16:42:32.607 [info] Got Copilot token for labalos
+2026-02-05 16:42:32.691 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 16:57:33.171 [info] Fetched model metadata in 387ms 1a086431-ceea-4500-a3e9-044bb9975e06
+2026-02-05 17:07:32.666 [info] Logged in as labalos
+2026-02-05 17:07:33.455 [info] Got Copilot token for labalos
+2026-02-05 17:07:33.532 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 17:07:34.032 [info] Fetched model metadata in 466ms a5b8f1a1-6ace-4419-8c54-f331a6bf12a2
+2026-02-05 17:22:34.425 [info] Fetched model metadata in 334ms 8fe3a014-2b1e-46b3-904b-f4677e3130da
+2026-02-05 17:32:33.509 [info] Logged in as labalos
+2026-02-05 17:32:34.215 [info] Got Copilot token for labalos
+2026-02-05 17:32:34.326 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 17:33:11.409 [info] Fetched model metadata in 379ms d82f929c-958a-4bc9-9543-16b6fa9d4e15
+2026-02-05 17:33:17.076 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:33:17.081 [info] request done: requestId: [e9186a32-ef39-490d-a73f-f97c9f150c61] model deployment ID: []
+2026-02-05 17:33:17.804 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:33:17.822 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:33:17.824 [info] request done: requestId: [fe209bd5-35a9-43b3-ba2e-dd9f2ab01bc0] model deployment ID: []
+2026-02-05 17:33:17.830 [info] request done: requestId: [5042a128-677b-47ff-8e5f-efd8837f4752] model deployment ID: []
+2026-02-05 17:38:11.759 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:38:11.767 [info] request done: requestId: [73a095f5-1923-43c6-a998-83185c3556be] model deployment ID: []
+2026-02-05 17:38:13.079 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:38:13.083 [info] request done: requestId: [3bfd5ed8-c4d5-4b3a-a8ea-8c19eb13cfde] model deployment ID: []
+2026-02-05 17:47:12.634 [info] Fetched model metadata in 522ms 381e2a6b-d919-4010-a0a5-def339dcd4e7
+2026-02-05 17:47:16.436 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:47:16.442 [info] request done: requestId: [fe721558-261b-40ea-93a6-8f5b5ef1b9c5] model deployment ID: []
+2026-02-05 17:47:23.739 [info] message 0 returned. finish reason: [stop]
+2026-02-05 17:47:23.741 [info] request done: requestId: [ac46ab64-a443-4d04-ac46-acb40b85201f] model deployment ID: []
+2026-02-05 17:48:13.252 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [9cce5ebc-7a22-4654-805e-51ccb6f56411]
+2026-02-05 17:57:34.277 [info] Logged in as labalos
+2026-02-05 17:57:34.824 [info] Got Copilot token for labalos
+2026-02-05 17:57:34.905 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 17:57:35.410 [info] Fetched model metadata in 470ms 0a016646-5ca6-4b2b-b0ae-dcc843fcf472
+2026-02-05 18:22:34.883 [info] Logged in as labalos
+2026-02-05 18:22:35.532 [info] Got Copilot token for labalos
+2026-02-05 18:22:35.611 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 18:31:40.479 [info] Fetched model metadata in 372ms 44d83e2e-9bb5-453a-b100-d9258913eeb4
+2026-02-05 18:31:44.556 [info] message 0 returned. finish reason: [stop]
+2026-02-05 18:31:44.564 [info] request done: requestId: [676c8cb3-9b74-4279-ab4f-ac3e745fd4c6] model deployment ID: []
+2026-02-05 18:31:57.302 [info] message 0 returned. finish reason: [stop]
+2026-02-05 18:31:57.307 [info] request done: requestId: [1aea4885-3b0f-4f55-940d-fd8ae96229d5] model deployment ID: []
+2026-02-05 18:32:55.576 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [a1f366c8-975b-4c82-b977-73623415663e]
+2026-02-05 18:47:35.590 [info] Logged in as labalos
+2026-02-05 18:47:36.280 [info] Got Copilot token for labalos
+2026-02-05 18:47:36.408 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 19:12:36.339 [info] Logged in as labalos
+2026-02-05 19:12:37.041 [info] Got Copilot token for labalos
+2026-02-05 19:12:37.115 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 19:16:15.240 [info] Fetched model metadata in 369ms 50b00063-184a-4274-8d0f-fe42d99d36ba
+2026-02-05 19:16:19.474 [info] message 0 returned. finish reason: [stop]
+2026-02-05 19:16:19.482 [info] request done: requestId: [cfbaece1-5cf7-4e9b-bb12-dc4df1c9fd93] model deployment ID: []
+2026-02-05 19:16:25.344 [info] message 0 returned. finish reason: [stop]
+2026-02-05 19:16:25.353 [info] request done: requestId: [152cc344-d004-4304-a656-87cee09e81ad] model deployment ID: []
+2026-02-05 19:37:37.103 [info] Logged in as labalos
+2026-02-05 19:37:37.775 [info] Got Copilot token for labalos
+2026-02-05 19:37:37.849 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 19:52:38.280 [info] Fetched model metadata in 360ms 38a0a1cf-f5ff-4e2b-b994-de23c60b8216
+2026-02-05 19:55:37.361 [info] message 0 returned. finish reason: [stop]
+2026-02-05 19:55:37.369 [info] request done: requestId: [953b5f60-7ca2-4ad0-8f0b-08a6d23dddcc] model deployment ID: []
+2026-02-05 20:04:57.652 [info] Logged in as labalos
+2026-02-05 20:04:58.309 [info] Got Copilot token for labalos
+2026-02-05 20:04:58.441 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 20:29:58.369 [info] Logged in as labalos
+2026-02-05 20:29:58.991 [info] Got Copilot token for labalos
+2026-02-05 20:29:59.068 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 20:44:59.492 [info] Fetched model metadata in 334ms d2cc69c5-5221-49d0-bc83-f3d3aee9e88d
+2026-02-05 20:59:25.339 [info] Logged in as labalos
+2026-02-05 20:59:26.113 [info] Got Copilot token for labalos
+2026-02-05 20:59:26.212 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 21:24:26.173 [info] Logged in as labalos
+2026-02-05 21:24:26.862 [info] Got Copilot token for labalos
+2026-02-05 21:24:26.940 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 21:39:27.272 [info] Fetched model metadata in 257ms c41ff105-5092-4135-89a8-5c24cc0e5b04
+2026-02-05 21:41:14.548 [info] message 0 returned. finish reason: [stop]
+2026-02-05 21:41:14.566 [info] request done: requestId: [0535c114-f9ac-4348-b4d3-689c3c1ee393] model deployment ID: []
+2026-02-05 21:41:16.220 [info] message 0 returned. finish reason: [stop]
+2026-02-05 21:41:16.226 [info] request done: requestId: [49fe7857-92ec-47a0-858c-fcbf8b6e3c1f] model deployment ID: []
+2026-02-05 21:49:26.918 [info] Logged in as labalos
+2026-02-05 21:49:27.504 [info] Got Copilot token for labalos
+2026-02-05 21:49:27.582 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 22:04:27.982 [info] Fetched model metadata in 330ms aefa55cd-8d3f-42b4-8875-9883e5d620f1
+2026-02-05 22:09:39.442 [info] message 0 returned. finish reason: [stop]
+2026-02-05 22:09:39.449 [info] request done: requestId: [056ffb87-4550-4828-bcaa-5adf5018c0e9] model deployment ID: []
+2026-02-05 22:09:42.011 [info] message 0 returned. finish reason: [stop]
+2026-02-05 22:09:42.016 [info] request done: requestId: [57cb019d-9500-458c-a120-b294108bda0b] model deployment ID: []
+2026-02-05 22:11:23.591 [info] message 0 returned. finish reason: [stop]
+2026-02-05 22:11:23.603 [info] request done: requestId: [7087766d-056b-4a2e-8329-066fb1a9492d] model deployment ID: []
+2026-02-05 22:11:25.709 [info] message 0 returned. finish reason: [stop]
+2026-02-05 22:11:25.711 [info] request done: requestId: [9324a1cd-b86a-4d53-a54f-4e4e974a4585] model deployment ID: []
+2026-02-05 22:11:38.632 [info] message 0 returned. finish reason: [stop]
+2026-02-05 22:11:38.645 [info] request done: requestId: [b3dfcf05-0bd2-4801-820c-17c1b0996df6] model deployment ID: []
+2026-02-05 22:11:42.580 [info] message 0 returned. finish reason: [stop]
+2026-02-05 22:11:42.587 [info] request done: requestId: [87f1571f-67da-4a8a-8422-79e7e248aa1f] model deployment ID: []
+2026-02-05 22:14:27.540 [info] Logged in as labalos
+2026-02-05 22:14:28.196 [info] Got Copilot token for labalos
+2026-02-05 22:14:28.274 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-05 22:14:28.530 [info] Fetched model metadata in 221ms 67acfa7f-5b7a-4a92-bd25-407dcea2fc94
+2026-02-05 22:45:11.409 [info] Logged in as labalos
+2026-02-05 22:45:12.094 [info] Got Copilot token for labalos
+2026-02-05 22:57:11.419 [info] copilot token chat_enabled: true, sku: free_limited_copilot

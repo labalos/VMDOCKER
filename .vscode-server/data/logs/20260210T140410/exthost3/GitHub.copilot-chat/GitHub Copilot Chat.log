@@ -1,0 +1,22 @@
+2026-02-10 17:31:30.449 [info] Can't use the Electron fetcher in this environment.
+2026-02-10 17:31:30.450 [info] Using the Node fetch fetcher.
+2026-02-10 17:31:30.450 [info] Initializing Git extension service.
+2026-02-10 17:31:30.482 [info] Successfully activated the vscode.git extension.
+2026-02-10 17:31:30.482 [info] Enablement state of the vscode.git extension: true.
+2026-02-10 17:31:30.482 [info] Successfully registered Git commit message provider.
+2026-02-10 17:31:33.154 [info] Logged in as labalos
+2026-02-10 17:31:33.963 [info] Got Copilot token for labalos
+2026-02-10 17:31:34.241 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 17:31:34.242 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-10 17:31:34.256 [info] Registering default platform agent...
+2026-02-10 17:31:34.393 [info] Fetched model metadata in 420ms 35e0e1af-e77a-409a-9e19-d668728d2921
+2026-02-10 17:31:34.397 [info] activationBlocker from 'languageModelAccess' took for 2389ms
+2026-02-10 17:56:34.046 [info] Logged in as labalos
+2026-02-10 17:56:34.703 [info] Got Copilot token for labalos
+2026-02-10 17:56:34.815 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 18:26:35.447 [info] Fetched model metadata in 420ms 2f696e5f-01da-4a55-8ed9-18027f36f802
+2026-02-10 18:41:35.908 [info] Fetched model metadata in 372ms c0fe6907-ad43-49f9-acd7-0a15dd9acfba
+2026-02-10 18:56:36.371 [info] Fetched model metadata in 381ms 8c5b439c-13fc-46d0-89fd-a721afb6b0e1
+2026-02-10 19:11:36.811 [info] Fetched model metadata in 341ms e6df2db9-9075-4d54-9040-f78e03df6952
+2026-02-10 19:26:37.305 [info] Fetched model metadata in 409ms c79d3e72-1ac7-4e9f-a684-da4853e0d161
+2026-02-10 19:41:37.823 [info] Fetched model metadata in 400ms d4e7313d-c6f4-4440-b929-dd489ad1454f

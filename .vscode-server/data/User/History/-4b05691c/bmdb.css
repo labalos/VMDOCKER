@@ -1,0 +1,129 @@
+/* ==========================================
+   HERO SECTION - Mobile First
+   ========================================== */
+
+   .hero {
+    position: relative;
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Imagen de fondo - Necesito que elijas una opción */
+    background-image: url('/images/construction-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Capa oscura para mejorar legibilidad */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% oscuro - ajustable */
+  }
+  
+  /* Contenido centrado */
+  .content {
+    position: relative; /* Encima del overlay */
+    z-index: 1;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+  }
+  
+  /* Título principal */
+  .title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+  }
+  
+  /* Subtítulo */
+  .subtitle {
+    font-size: 1.25rem;
+    color: #e0e0e0;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Contenedor de botones */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  /* ==========================================
+     BOTONES
+     ========================================== */
+  
+  .btnPrimary {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    /* Color principal - ¿Qué color usa tu empresa? */
+    background-color: #ff6b35; /* Naranja construcción */
+    color: white;
+  }
+  
+  .btnPrimary:hover {
+    background-color: #e55a2b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+  }
+  
+  .btnSecondary {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .btnSecondary:hover {
+    background-color: #ffffff;
+    color: #333333;
+    transform: translateY(-2px);
+  }
+  
+  /* ==========================================
+     RESPONSIVE - Desktop
+     ========================================== */
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 4.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .buttons {
+      flex-direction: row;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+  }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyectos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    #logoutBtn {
+      background: #dc3545;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+      margin-bottom: 20px;
+    }
+
+    .btn-editar, .btn-borrar {
+      margin-right: 10px;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .btn-editar {
+      background: #007bff;
+      color: white;
+    }
+
+    .btn-borrar {
+      background: #dc3545;
+      color: white;
+    }
+
+    .proyecto {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Listado de Proyectos</h2>
+
+  <!-- BOTÓN DE LOGOUT -->
+  <button id="logoutBtn">Cerrar sesión</button>
+
+  <div id="contenedorProyectos"></div>
+
+  <script>
+    // ============================
+    // 1. DETECTAR TOKEN
+    // ============================
+    const token = localStorage.getItem("token");
+
+    if (token) {
+      document.getElementById("logoutBtn").style.display = "inline-block";
+    }
+
+    // ============================
+    // 2. FUNCIÓN LOGOUT
+    // ============================
+    document.getElementById("logoutBtn").addEventListener("click", () => {
+      localStorage.removeItem("token");
+      alert("Sesión cerrada");
+      window.location.href = "login.html";
+    });
+
+    // ============================
+    // 3. CARGAR PROYECTOS (PÚBLICO)
+    // ============================
+    async function cargarProyectos() {
+      try {
+        const res = await fetch("http://192.168.1.28:3000/proyectos");
+        const proyectos = await res.json();
+
+        const contenedor = document.getElementById("contenedorProyectos");
+        contenedor.innerHTML = "";
+
+        proyectos.forEach(p => {
+          const div = document.createElement("div");
+          div.classList.add("proyecto");
+
+          div.innerHTML = `
+            <h3>${p.titulo}</h3>
+            <p>${p.descripcion}</p>
+
+            <button class="btn-editar" onclick="editarProyecto('${p._id}')">Editar</button>
+            <button class="btn-borrar" onclick="borrarProyecto('${p._id}')">Borrar</button>
+          `;
+
+          contenedor.appendChild(div);
+        });
+
+        // ============================
+        // 4. OCULTAR BOTONES SI NO HAY TOKEN
+        // ============================
+        if (!token) {
+          document.querySelectorAll(".btn-editar").forEach(btn => btn.style.display = "none");
+          document.querySelectorAll(".btn-borrar").forEach(btn => btn.style.display = "none");
+        }
+
+      } catch (error) {
+        console.error("Error cargando proyectos:", error);
+      }
+    }
+
+    cargarProyectos();
+
+    // ============================
+    // 5. BORRAR PROYECTO (PROTEGIDO)
+    // ============================
+    async function borrarProyecto(id) {
+      if (!token) {
+        alert("No tienes permiso para borrar");
+        return;
+      }
+
+      const res = await fetch(`http://192.168.1.28:3000/proyectos/${id}`, {
+        method: "DELETE",
+        headers: {
+          "x-auth-token": token
+        }
+      });
+
+      const data = await res.json();
+      alert(data.mensaje || "Proyecto eliminado");
+      cargarProyectos();
+    }
+
+    // ============================
+    // 6. EDITAR PROYECTO (PROTEGIDO)
+    // ============================
+    function editarProyecto(id) {
+      if (!token) {
+        alert("No tienes permiso para editar");
+        return;
+      }
+
+      alert("Aquí iría tu formulario de edición");
+    }
+
+  </script>
+
+</body>
+</html>

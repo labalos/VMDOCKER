@@ -1,0 +1,951 @@
+2026-02-04 22:13:40.456 [info] [certificates] Removed 3 expired certificates
+2026-02-04 22:13:41.139 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-04 22:13:41.141 [info] [code-referencing] Public code references are enabled.
+2026-02-04 22:30:16.896 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 483.9126010015607 ms
+2026-02-04 22:30:16.906 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'dd65326f-edd4-41b6-a194-166bca2e124e',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:16.987 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'dd65326f-edd4-41b6-a194-166bca2e124e',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:16.988 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'dd65326f-edd4-41b6-a194-166bca2e124e',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:16.992 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 22:30:16.994 [info] [streamChoices] request done: headerRequestId: [dd65326f-edd4-41b6-a194-166bca2e124e] model deployment ID: []
+2026-02-04 22:30:24.661 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 242.87881400063634 ms
+2026-02-04 22:30:24.665 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '862c6ca8-d5d8-4275-aab6-90482031f6ef',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:24.740 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '862c6ca8-d5d8-4275-aab6-90482031f6ef',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:24.740 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '862c6ca8-d5d8-4275-aab6-90482031f6ef',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:24.743 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 22:30:24.744 [info] [streamChoices] request done: headerRequestId: [862c6ca8-d5d8-4275-aab6-90482031f6ef] model deployment ID: []
+2026-02-04 22:30:26.941 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 361.2637269999832 ms
+2026-02-04 22:30:26.945 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:26.953 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:26.964 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.063 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.063 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.070 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2026-02-04 22:30:27.078 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.078 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.082 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 22:30:27.084 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.084 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '24d6062b-9eaf-4504-90e4-415b08c03b48',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:30:27.092 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2026-02-04 22:30:27.093 [info] [streamChoices] request done: headerRequestId: [24d6062b-9eaf-4504-90e4-415b08c03b48] model deployment ID: []
+2026-02-04 22:38:46.180 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-04 22:38:46.181 [info] [code-referencing] Public code references are enabled.
+2026-02-04 22:57:59.885 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 435.5708460006863 ms
+2026-02-04 22:57:59.895 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.897 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.904 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.977 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.977 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.983 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2026-02-04 22:57:59.986 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.986 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.989 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2026-02-04 22:57:59.991 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.993 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2a08d010-bced-4930-af21-3426668c4c2a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:57:59.995 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 22:57:59.995 [info] [streamChoices] request done: headerRequestId: [2a08d010-bced-4930-af21-3426668c4c2a] model deployment ID: []
+2026-02-04 22:58:01.373 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 265.45759699866176 ms
+2026-02-04 22:58:01.375 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'd4ea52ae-1a37-4ae7-b99a-f025c4f97e46',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:58:01.439 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'd4ea52ae-1a37-4ae7-b99a-f025c4f97e46',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:58:01.440 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'd4ea52ae-1a37-4ae7-b99a-f025c4f97e46',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:58:01.442 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 22:58:01.444 [info] [streamChoices] request done: headerRequestId: [d4ea52ae-1a37-4ae7-b99a-f025c4f97e46] model deployment ID: []
+2026-02-04 22:58:04.254 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 197.0414920002222 ms
+2026-02-04 22:58:04.257 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8778c72a-b7ea-4aa5-b4b7-3f95c7a1f67c',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:58:04.328 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8778c72a-b7ea-4aa5-b4b7-3f95c7a1f67c',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 22:58:04.329 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 22:58:04.331 [info] [streamChoices] request done: headerRequestId: [8778c72a-b7ea-4aa5-b4b7-3f95c7a1f67c] model deployment ID: []
+2026-02-04 23:03:27.729 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 412.90264100022614 ms
+2026-02-04 23:03:27.731 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'a99745b1-7b3f-453d-b9b1-c9540f24cc5a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:03:27.797 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'a99745b1-7b3f-453d-b9b1-c9540f24cc5a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:03:27.797 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'a99745b1-7b3f-453d-b9b1-c9540f24cc5a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:03:27.798 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 23:03:27.799 [info] [streamChoices] request done: headerRequestId: [a99745b1-7b3f-453d-b9b1-c9540f24cc5a] model deployment ID: []
+2026-02-04 23:03:30.161 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 270.7477640006691 ms
+2026-02-04 23:03:30.163 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'a096cee9-1568-4905-a390-910badf451ca',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:03:30.238 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'a096cee9-1568-4905-a390-910badf451ca',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:03:30.239 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'a096cee9-1568-4905-a390-910badf451ca',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:03:30.240 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 23:03:30.241 [info] [streamChoices] request done: headerRequestId: [a096cee9-1568-4905-a390-910badf451ca] model deployment ID: []
+2026-02-04 23:05:24.038 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-04 23:05:24.038 [info] [code-referencing] Public code references are enabled.
+2026-02-04 23:05:24.816 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 261.4386279992759 ms
+2026-02-04 23:05:24.819 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'b428ee37-7a56-4aa5-b28e-58f0245aa2f9',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:05:24.891 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'b428ee37-7a56-4aa5-b28e-58f0245aa2f9',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:05:24.891 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'b428ee37-7a56-4aa5-b28e-58f0245aa2f9',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:05:24.894 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 23:05:24.896 [info] [streamChoices] request done: headerRequestId: [b428ee37-7a56-4aa5-b28e-58f0245aa2f9] model deployment ID: []
+2026-02-04 23:05:29.901 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 261.805361000821 ms
+2026-02-04 23:05:29.903 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '0c4499db-c797-4c54-912a-2287f629e746',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:05:29.907 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '0c4499db-c797-4c54-912a-2287f629e746',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:05:29.913 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 23:05:29.956 [info] [streamChoices] request done: headerRequestId: [0c4499db-c797-4c54-912a-2287f629e746] model deployment ID: []
+2026-02-04 23:53:30.900 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-04 23:53:30.900 [info] [code-referencing] Public code references are enabled.
+2026-02-04 23:53:58.825 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 468.7462479993701 ms
+2026-02-04 23:53:58.828 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'd0cc3e8d-2d1a-4946-8835-bf2473e96ed7',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:53:58.830 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'd0cc3e8d-2d1a-4946-8835-bf2473e96ed7',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-04 23:53:58.833 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-04 23:53:58.876 [info] [streamChoices] request done: headerRequestId: [d0cc3e8d-2d1a-4946-8835-bf2473e96ed7] model deployment ID: []
+2026-02-05 00:04:31.580 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 298.82197699695826 ms
+2026-02-05 00:04:31.583 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8c7f7fb6-e8a2-4691-befd-234da810214f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:04:31.585 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8c7f7fb6-e8a2-4691-befd-234da810214f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:04:31.588 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:04:31.631 [info] [streamChoices] request done: headerRequestId: [8c7f7fb6-e8a2-4691-befd-234da810214f] model deployment ID: []
+2026-02-05 00:08:53.219 [warning] [relatedFiles] unknown language properties
+2026-02-05 00:08:53.697 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 393.95847200229764 ms
+2026-02-05 00:08:53.704 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'aadb19ac-a1ae-465a-bc20-0a3271e3828b',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:08:53.707 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'aadb19ac-a1ae-465a-bc20-0a3271e3828b',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:08:53.709 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:08:53.747 [info] [streamChoices] request done: headerRequestId: [aadb19ac-a1ae-465a-bc20-0a3271e3828b] model deployment ID: []
+2026-02-05 00:13:22.028 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 323.25373700261116 ms
+2026-02-05 00:13:22.031 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'dd4ad3e7-4f56-4731-8aa3-9b0e0831d966',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:13:22.098 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'dd4ad3e7-4f56-4731-8aa3-9b0e0831d966',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:13:22.100 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:13:22.101 [info] [streamChoices] request done: headerRequestId: [dd4ad3e7-4f56-4731-8aa3-9b0e0831d966] model deployment ID: []
+2026-02-05 00:17:22.257 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 366.1197800002992 ms
+2026-02-05 00:17:22.259 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '5fe0cffb-b777-4729-b8c7-8839ee9db94e',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:17:22.264 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '5fe0cffb-b777-4729-b8c7-8839ee9db94e',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:17:22.265 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:17:22.304 [info] [streamChoices] request done: headerRequestId: [5fe0cffb-b777-4729-b8c7-8839ee9db94e] model deployment ID: []
+2026-02-05 00:23:08.841 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-05 00:23:08.841 [info] [code-referencing] Public code references are enabled.
+2026-02-05 00:23:16.667 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 341.3308819979429 ms
+2026-02-05 00:23:16.669 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '54b40731-3eeb-4aa4-9f3c-d7977b9b8e2d',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:23:16.671 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '54b40731-3eeb-4aa4-9f3c-d7977b9b8e2d',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:23:16.673 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:23:16.731 [info] [streamChoices] request done: headerRequestId: [54b40731-3eeb-4aa4-9f3c-d7977b9b8e2d] model deployment ID: []
+2026-02-05 00:24:20.677 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 182.33745599910617 ms
+2026-02-05 00:24:20.680 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.762 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6477fb6b-b8ff-4878-8248-2338434c8904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:24:20.769 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:24:20.771 [info] [streamChoices] request done: headerRequestId: [6477fb6b-b8ff-4878-8248-2338434c8904] model deployment ID: []
+2026-02-05 00:26:18.371 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 275.0610179975629 ms
+2026-02-05 00:26:18.374 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.385 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.397 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.544 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.544 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.545 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.550 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2026-02-05 00:26:18.555 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.555 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.555 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.555 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.556 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.556 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.556 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.556 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.556 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.563 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.566 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.567 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.567 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '137a6bb7-9297-48d4-8bf1-207ef9034d05',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:18.571 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2026-02-05 00:26:18.572 [info] [streamChoices] request done: headerRequestId: [137a6bb7-9297-48d4-8bf1-207ef9034d05] model deployment ID: []
+2026-02-05 00:26:19.336 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 184.62040300294757 ms
+2026-02-05 00:26:19.341 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.364 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.369 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.497 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.497 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.498 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.503 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2026-02-05 00:26:19.510 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.511 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.516 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:26:19.518 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.519 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '9a3b63ba-77d9-4a19-9e31-772146ed8b4f',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:26:19.522 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2026-02-05 00:26:19.522 [info] [streamChoices] request done: headerRequestId: [9a3b63ba-77d9-4a19-9e31-772146ed8b4f] model deployment ID: []
+2026-02-05 00:27:48.367 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 199.54263200238347 ms
+2026-02-05 00:27:48.370 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'e5545553-6fc6-446c-af47-e214ce8345c6',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:27:48.372 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'e5545553-6fc6-446c-af47-e214ce8345c6',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:27:48.373 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:27:48.414 [info] [streamChoices] request done: headerRequestId: [e5545553-6fc6-446c-af47-e214ce8345c6] model deployment ID: []
+2026-02-05 00:29:06.347 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 214.98377500101924 ms
+2026-02-05 00:29:06.351 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '65361643-6a1e-445b-9594-07f667ba7904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:29:06.354 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '65361643-6a1e-445b-9594-07f667ba7904',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-05 00:29:06.356 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-05 00:29:06.401 [info] [streamChoices] request done: headerRequestId: [65361643-6a1e-445b-9594-07f667ba7904] model deployment ID: []

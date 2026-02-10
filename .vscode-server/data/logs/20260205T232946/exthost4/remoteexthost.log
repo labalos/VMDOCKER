@@ -1,0 +1,44 @@
+2026-02-06 15:11:53.235 [info] Extension host with pid 47281 started
+2026-02-06 15:11:53.236 [error] Error: EEXIST: file already exists, open '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock'
+2026-02-06 15:11:53.242 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-02-06 15:11:53.268 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock': The lock does not look stale, elapsed: 856 ms, giving up.
+2026-02-06 15:11:53.299 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9-1/vscode.lock': Lock acquired.
+2026-02-06 15:11:53.611 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-02-06 15:11:53.616 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.default'
+2026-02-06 15:11:53.616 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-02-06 15:11:53.617 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-02-06 15:11:53.618 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-02-06 15:11:55.971 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-02-06 15:11:55.972 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-02-06 15:11:56.424 [info] Eager extensions activated
+2026-02-06 15:11:56.426 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:56.427 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:56.428 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:56.429 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:56.429 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:11:56.430 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-02-06 15:12:00.859 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-02-06 15:12:00.860 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-06 15:12:00.861 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-06 15:12:00.861 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-02-06 15:12:00.862 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-02-06 19:01:52.654 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-02-06 23:27:56.547 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-02-06 23:27:56.549 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-02-06 23:27:56.818 [error] Canceled: Canceled
+    at new XT (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:29:153636)
+    at Uy.U (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:29:158246)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:29:155740)
+    at mw.g (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:32221)
+    at mw.executeCommand (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at r.registerCommand.description (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31055)
+    at mw.h (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:32741)
+    at mw.g (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31818)
+    at mw.executeCommand (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at Object.executeCommand (file:///home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/vs/workbench/api/node/extensionHostProcess.js:172:37254)
+    at nT (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:40:9860)
+    at xe (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:4:1357)
+    at pe (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:3:6849)
+    at Immediate.<anonymous> (/home/leo/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.14.29/dist/extension.js:3:6727)
+    at processImmediate (node:internal/timers:483:21) setContext undefined
+2026-02-06 23:27:56.823 [info] Extension host with pid 47281 exiting with code 0

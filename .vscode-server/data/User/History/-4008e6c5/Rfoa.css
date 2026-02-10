@@ -1,0 +1,406 @@
+@import '../styles/variables.css';
+
+.container {
+    padding: var(--space-5);
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin-bottom: var(--space-8);
+  }
+  
+  .title {
+    color: var(--color-dark);
+    margin-bottom: var(--space-5);
+    font-size: var(--text-3xl);
+  }
+  
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+  }
+  
+  .statCard {
+    background: white;
+    padding: var(--space-4) var(--space-5);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 4px solid var(--color-primary);
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .statNumber {
+    display: block;
+    font-size: var(--text-3xl);
+    font-weight: bold;
+    color: var(--color-dark);
+  }
+  
+  .statLabel {
+    font-size: 0.9rem;
+    color: var(--color-gray-600);
+  }
+  
+  .filters {
+    background: white;
+    padding: var(--space-5);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: var(--space-5);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-5);
+    align-items: flex-end;
+  }
+  
+  .filterGroup {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .filterGroup label {
+    font-weight: 600;
+    color: var(--color-dark);
+    font-size: 0.9rem;
+  }
+  
+  .filterSelect, .filterInput {
+    padding: var(--space-2) var(--space-3);
+    border: 2px solid var(--color-gray-200);
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  
+  .clearButton {
+    background: var(--color-gray-400);
+    color: white;
+    border: none;
+    padding: var(--space-2) var(--space-5);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+    align-self: flex-end;
+  }
+  
+  .clearButton:hover {
+    background: var(--color-gray-600);
+  }
+  
+  .error {
+    background: var(--color-error-light);
+    color: var(--color-error);
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .error button {
+    background: none;
+    border: none;
+    color: var(--color-error);
+    font-size: var(--text-3xl);
+    cursor: pointer;
+  }
+  
+  .tableContainer {
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table thead {
+    background: var(--color-dark);
+    color: white;
+  }
+  
+  .table th {
+    padding: var(--space-4);
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .table td {
+    padding: var(--space-4);
+    border-bottom: 1px solid var(--color-gray-100);
+  }
+  
+  .tableRow {
+    transition: background 0.2s;
+    cursor: pointer;
+  }
+  
+  .tableRow:hover {
+    background: var(--color-light);
+  }
+  
+  .idCell {
+    font-family: monospace;
+    color: var(--color-gray-600);
+  }
+  
+  .email {
+    font-size: 0.85rem;
+    color: var(--color-gray-600);
+    margin-top: var(--space-1);
+  }
+  
+  .statusBadge {
+    display: inline-block;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-2xl);
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  
+  .actions {
+    display: flex;
+    gap: var(--space-3);
+    align-items: center;
+  }
+  
+  .statusSelect {
+    padding: var(--space-1) var(--space-2);
+    border: 2px solid var(--color-gray-200);
+    border-radius: var(--radius-md);
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  
+  .viewButton {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background 0.3s;
+  }
+  
+  .viewButton:hover {
+    background: var(--color-primary-hover);
+  }
+  
+  .empty {
+    text-align: center;
+    color: var(--color-gray-600);
+    padding: var(--space-10) !important;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: var(--space-10);
+    color: var(--color-gray-600);
+    font-size: 1.2rem;
+  }
+  
+  /* Modal */
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: var(--space-5);
+  }
+  
+  .modalContent {
+    background: white;
+    border-radius: var(--radius-xl);
+    width: 100%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  
+  .modalHeader {
+    padding: var(--space-5);
+    border-bottom: 1px solid var(--color-gray-100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modalHeader h2 {
+    margin: 0;
+    color: var(--color-dark);
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: var(--text-3xl);
+    color: var(--color-gray-600);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .closeButton:hover {
+    color: var(--color-error);
+  }
+  
+  .modalBody {
+    padding: var(--space-5);
+  }
+  
+  .detailGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-5);
+    margin-bottom: var(--space-8);
+  }
+  
+  .detailGroup {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  
+  .detailGroup label {
+    font-weight: 600;
+    color: var(--color-dark);
+    font-size: 0.9rem;
+  }
+  
+  .detailGroup p {
+    margin: 0;
+    color: var(--color-gray-800);
+  }
+  
+  .detailGroup a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  .detailGroup a:hover {
+    text-decoration: underline;
+  }
+  
+  .messageBox {
+    background: var(--color-light);
+    padding: var(--space-4);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-gray-200);
+    min-height: 100px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+  }
+  
+  .modalStatusSelect {
+    padding: var(--space-2) var(--space-3);
+    border: 2px solid var(--color-gray-200);
+    border-radius: var(--radius-md);
+    font-size: var(--text-lg);
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .modalActions {
+    display: flex;
+    gap: var(--space-4);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--color-gray-100);
+  }
+  
+  .emailButton, .whatsappButton, .closeModalButton {
+    padding: var(--space-3) var(--space-5);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: var(--text-lg);
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  
+  .emailButton {
+    background: var(--color-primary);
+    color: white;
+  }
+  
+  .emailButton:hover:not(:disabled) {
+    background: var(--color-primary-hover);
+  }
+  
+  .emailButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .whatsappButton {
+    background: var(--color-success);
+    color: white;
+  }
+  
+  .whatsappButton:hover {
+    background: var(--color-success);
+  }
+  
+  .closeModalButton {
+    background: var(--color-gray-400);
+    color: white;
+    margin-left: auto;
+  }
+  
+  .closeModalButton:hover {
+    background: var(--color-gray-600);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .clearButton {
+      align-self: stretch;
+    }
+    
+    .table {
+      display: block;
+      overflow-x: auto;
+    }
+    
+    .detailGrid {
+      grid-template-columns: 1fr;
+    }
+    
+    .modalActions {
+      flex-direction: column;
+    }
+    
+    .closeModalButton {
+      margin-left: 0;
+    }
+  }

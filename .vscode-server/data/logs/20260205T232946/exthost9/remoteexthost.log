@@ -1,0 +1,212 @@
+2026-02-07 12:51:29.816 [info] Extension host with pid 59354 started
+2026-02-07 12:51:29.816 [error] Error: EEXIST: file already exists, open '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock'
+2026-02-07 12:51:29.846 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-02-07 12:51:29.856 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9/vscode.lock': The lock does not look stale, elapsed: 974 ms, giving up.
+2026-02-07 12:51:29.900 [info] Lock '/home/leo/.vscode-server/data/User/workspaceStorage/730cbd54b2c14d1f7b36303f887028c9-1/vscode.lock': Lock acquired.
+2026-02-07 12:51:30.055 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-02-07 12:51:30.059 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.default'
+2026-02-07 12:51:30.060 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-02-07 12:51:30.062 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-02-07 12:51:31.950 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-02-07 12:51:31.951 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-02-07 12:51:32.382 [info] Eager extensions activated
+2026-02-07 12:51:32.382 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 12:51:32.383 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 12:51:32.383 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 12:51:32.384 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 12:51:32.384 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 12:51:32.385 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 12:51:36.771 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-02-07 13:44:10.284 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-02-07 14:45:55.168 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-02-07 15:11:29.732 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-02-07 15:11:35.088 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-07 15:11:35.089 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-07 15:11:35.092 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-02-07 21:05:17.347 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-02-07 23:02:17.762 [error] [vscode.typescript-language-features] provider FAILED
+2026-02-07 23:02:17.762 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getFileAndProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194282:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:193541:36)
+    at encodedSemanticClassifications-full (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192778:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-07 23:02:18.749 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getProjectInfoWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194067:30)
+    at IpcIOSession.getProjectInfo (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194057:17)
+    at projectInfo (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192910:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-07 23:02:18.764 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getFileAndProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194282:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:193541:36)
+    at encodedSemanticClassifications-full (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192778:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-07 23:02:22.846 [error] [vscode.typescript-language-features] provider FAILED
+2026-02-07 23:02:22.846 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getFileAndProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194282:17)
+    at IpcIOSession.getApplicableRefactors (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194801:36)
+    at getApplicableRefactors (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192957:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-07 23:02:22.991 [error] [vscode.typescript-language-features] provider FAILED
+2026-02-07 23:02:22.991 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getFileAndProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194282:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:193541:36)
+    at encodedSemanticClassifications-full (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192778:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-07 23:02:23.826 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getProjectInfoWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194067:30)
+    at IpcIOSession.getProjectInfo (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194057:17)
+    at projectInfo (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192910:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-07 23:02:23.992 [error] Error: <semantic> TypeScript Server Error (5.7.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:184577:11)
+    at ScriptInfo.getDefaultProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:185279:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188770:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:188765:103)
+    at IpcIOSession.getFileAndProjectWorker (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194296:77)
+    at IpcIOSession.getFileAndProject (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:194282:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:193541:36)
+    at encodedSemanticClassifications-full (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:192778:43)
+    at /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195231:15
+    at IpcIOSession.executeWithRequestId (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195220:14)
+    at IpcIOSession.executeCommand (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195229:29)
+    at IpcIOSession.onMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/typescript.js:195277:68)
+    at process.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/node_modules/typescript/lib/_tsserver.js:525:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:492077)
+    at y.dispatchResponse (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:486047)
+    at y.dispatchMessage (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484845)
+    at ChildProcess.<anonymous> (/home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/extensions/typescript-language-features/dist/extension.js:2:484338)
+    at ChildProcess.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2026-02-08 00:53:22.958 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

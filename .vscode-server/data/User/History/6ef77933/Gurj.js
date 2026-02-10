@@ -1,0 +1,125 @@
+const express = require('express');
+const router = express.Router();
+const Proyecto = require('../models/Proyecto');
+
+console.log(">>> Archivo proyectos.js CARGADO <<<");
+
+
+// GET /proyectos — obtener proyectos con filtros combinados
+router.get("/", async (req, res) => {
+  console.log(">>> ENTRÓ A LA RUTA GET /proyectos");
+
+  const query = {};
+
+  // BÚSQUEDA POR TEXTO (título o descripción)
+  if (req.query.search) {
+    query.$or = [
+      { titulo: new RegExp(req.query.search, "i") },
+      { descripcion: new RegExp(req.query.search, "i") }
+    ];
+  }
+
+  // FILTRO POR CATEGORÍA
+  if (req.query.categoria) {
+    query.categoria = req.query.categoria;
+  }
+
+  // FILTRO POR UBICACIÓN
+  if (req.query.ubicacion) {
+    query.ubicacion = req.query.ubicacion;
+  }
+
+  // FILTRO POR FECHA EXACTA
+  if (req.query.fecha) {
+    query.fecha = req.query.fecha;
+  }
+
+  console.log("Query final:", query);
+
+  try {
+    const proyectos = await Proyecto.find(query);
+    res.json(proyectos);
+  } catch (error) {
+    res.status(500).json({ error: "Error obteniendo proyectos" });
+  }
+});
+
+// GET /proyectos/:id — obtener un proyecto por ID
+router.get('/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const proyecto = await Proyecto.findById(id);
+
+    if (!proyecto) {
+      return res.status(404).json({ error: 'Proyecto no encontrado' });
+    }
+
+    res.json(proyecto);
+
+  } catch (error) {
+    if (error.name === 'CastError') {
+      return res.status(400).json({ error: 'ID inválido' });
+    }
+
+    res.status(500).json({ error: 'Error al obtener el proyecto' });
+  }
+});
+
+// PUT /proyectos/:id — actualizar parcialmente un proyecto
+router.put('/:id', async (req, res) => {
+  const { id } = req.params;
+  const datosActualizados = req.body;
+
+  try {
+    const proyectoActualizado = await Proyecto.findByIdAndUpdate(
+      id,
+      { $set: datosActualizados },
+      { new: true, runValidators: true }
+    );
+
+    if (!proyectoActualizado) {
+      return res.status(404).json({ error: 'Proyecto no encontrado' });
+    }
+
+    res.json(proyectoActualizado);
+
+  } catch (error) {
+    if (error.name === 'CastError') {
+      return res.status(400).json({ error: 'ID inválido' });
+    }
+
+    if (error.name === 'ValidationError') {
+      return res.status(400).json({ error: 'Datos inválidos' });
+    }
+
+    res.status(500).json({ error: 'Error al actualizar el proyecto' });
+  }
+});
+
+// DELETE /proyectos/:id — eliminar un proyecto
+router.delete('/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const proyectoEliminado = await Proyecto.findByIdAndDelete(id);
+
+    if (!proyectoEliminado) {
+      return res.status(404).json({ error: 'Proyecto no encontrado' });
+    }
+
+    res.json({
+      mensaje: 'Proyecto eliminado correctamente',
+      proyecto: proyectoEliminado
+    });
+
+  } catch (error) {
+    if (error.name === 'CastError') {
+      return res.status(400).json({ error: 'ID inválido' });
+    }
+
+    res.status(500).json({ error: 'Error al eliminar el proyecto' });
+  }
+});
+
+module.exports = router;

@@ -1,0 +1,101 @@
+
+import { useState } from "react";
+import { Button, Input, Card, CardBody } from "./ui";
+import styles from "./Login.module.css";
+
+export default function Login({ onLogin }) {
+  const [credentials, setCredentials] = useState({
+    username: "",
+    password: ""
+  });
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setCredentials(prev => ({
+      ...prev,
+      [name]: value
+    }));
+    if (error) setError("");
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+
+    try {
+      const response = await fetch("http://localhost:3000/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(credentials)
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || "Login failed");
+      }
+
+      localStorage.setItem("token", data.token);
+      onLogin(data.user);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className={styles.container}>
+      <Card className={styles.loginCard}>
+        <CardBody>
+          <div className={styles.header}>
+            <h1 className={styles.title}>Admin Login</h1>
+            <p className={styles.subtitle}>Access the administration panel</p>
+          </div>
+
+          {error && (
+            <div className={styles.errorAlert}>
+              <span>⚠</span>
+              {error}
+            </div>
+          )}
+
+          <form onSubmit={handleSubmit} className={styles.form}>
+            <Input
+              label="Username"
+              type="text"
+              name="username"
+              value={credentials.username}
+              onChange={handleChange}
+              placeholder="Enter your username"
+              required
+            />
+
+            <Input
+              label="Password"
+              type="password"
+              name="password"
+              value={credentials.password}
+              onChange={handleChange}
+              placeholder="Enter your password"
+              required
+            />
+
+            <Button 
+              type="submit" 
+              variant="primary" 
+              size="lg"
+              disabled={loading}
+              className={styles.submitButton}
+            >
+              {loading ? "Logging in..." : "Login"}
+            </Button>
+          </form>
+        </CardBody>
+      </Card>
+    </div>
+  );
+}

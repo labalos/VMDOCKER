@@ -1,0 +1,9 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "editor.linkedEditing": true,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.lockfilesInTmp": true,
+    "remote.SSH.remotePlatform": {
+        "vm-docker": "linux"
+    },
+}

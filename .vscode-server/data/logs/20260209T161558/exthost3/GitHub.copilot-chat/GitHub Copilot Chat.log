@@ -1,0 +1,106 @@
+2026-02-09 16:22:55.882 [info] Can't use the Electron fetcher in this environment.
+2026-02-09 16:22:55.882 [info] Using the Node fetch fetcher.
+2026-02-09 16:22:55.882 [info] Initializing Git extension service.
+2026-02-09 16:22:55.882 [info] Successfully activated the vscode.git extension.
+2026-02-09 16:22:55.882 [info] Enablement state of the vscode.git extension: true.
+2026-02-09 16:22:55.882 [info] Successfully registered Git commit message provider.
+2026-02-09 16:22:58.959 [info] Logged in as labalos
+2026-02-09 16:23:01.663 [info] Got Copilot token for labalos
+2026-02-09 16:23:02.018 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 16:23:02.018 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-09 16:23:02.048 [info] Registering default platform agent...
+2026-02-09 16:23:04.024 [info] Fetched model metadata in 2345ms 1a773784-b597-46ba-a9f0-e94317211c3d
+2026-02-09 16:23:04.044 [info] activationBlocker from 'languageModelAccess' took for 7823ms
+2026-02-09 16:48:01.780 [info] Logged in as labalos
+2026-02-09 16:48:02.433 [info] Got Copilot token for labalos
+2026-02-09 16:48:02.609 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 16:48:03.080 [info] Fetched model metadata in 425ms cb8cf46d-0b6f-4f51-9d19-33a79490b5c5
+2026-02-09 17:18:48.656 [info] Logged in as labalos
+2026-02-09 17:18:49.310 [info] Got Copilot token for labalos
+2026-02-09 17:30:48.667 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 17:49:48.683 [info] Logged in as labalos
+2026-02-09 17:49:49.322 [info] Got Copilot token for labalos
+2026-02-09 18:01:37.897 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 18:16:38.087 [info] Logged in as labalos
+2026-02-09 18:16:38.672 [info] Got Copilot token for labalos
+2026-02-09 18:16:38.761 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 18:31:39.235 [info] Fetched model metadata in 374ms 7d97a236-99f3-462a-b1cb-b4b3cc8f2557
+2026-02-09 18:41:38.723 [info] Logged in as labalos
+2026-02-09 18:41:39.483 [info] Got Copilot token for labalos
+2026-02-09 18:41:39.583 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 18:56:44.951 [info] Fetched model metadata in 5248ms 1affbabf-c9fe-404b-8dd7-ea3f38bed00e
+2026-02-09 18:56:44.953 [error] Error: Failed to fetch models (1affbabf-c9fe-404b-8dd7-ea3f38bed00e): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": POST https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser giving up after 1 attempt(s): Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+    at vm._fetchModels (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:12429)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vm.getAllChatModels (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:9884)
+    at TT.getAllChatEndpoints (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:16457)
+    at Object.o [as task] (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:781)
+    at Xd._processQueue (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:587:1056): Failed to fetch models (1affbabf-c9fe-404b-8dd7-ea3f38bed00e)
+2026-02-09 18:56:50.190 [info] Fetched model metadata in 5235ms dc25990d-57c5-4e57-9f1a-7205764be0df
+2026-02-09 18:56:50.191 [error] Error: Failed to fetch models (dc25990d-57c5-4e57-9f1a-7205764be0df): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": POST https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser giving up after 1 attempt(s): Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+    at vm._fetchModels (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:12429)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vm.getChatModelFromFamily (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:10607)
+    at TT.getChatEndpoint (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:15438)
+    at Object.o [as task] (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:834)
+    at Xd._processQueue (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:587:1056): Failed to fetch models (dc25990d-57c5-4e57-9f1a-7205764be0df)
+2026-02-09 19:06:39.527 [info] Logged in as labalos
+2026-02-09 19:06:40.344 [info] Got Copilot token for labalos
+2026-02-09 19:06:40.433 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 19:06:45.725 [info] Fetched model metadata in 5253ms ae369340-2b47-4870-adb9-ef0adca181a3
+2026-02-09 19:06:45.727 [error] Error: Failed to fetch models (ae369340-2b47-4870-adb9-ef0adca181a3): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": POST https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser giving up after 1 attempt(s): Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
+    at vm._fetchModels (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:12429)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5): Failed to fetch models (ae369340-2b47-4870-adb9-ef0adca181a3)
+2026-02-09 19:06:50.961 [info] Fetched model metadata in 5233ms c3958e0f-5841-48c8-9078-c54c97ca2e12
+2026-02-09 19:06:50.962 [error] Error: Failed to fetch models (c3958e0f-5841-48c8-9078-c54c97ca2e12): can't get copilot user by tracking ID: error getting copilot user details: twirp error internal: failed to do request: Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": POST https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser giving up after 1 attempt(s): Post "https://internal-api.service.iad.github.net/internal/twirp/copilot.users.v1.CopilotUserDetailAPI/GetCopilotUser": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+    at vm._fetchModels (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:12429)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at vm.getChatModelFromFamily (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:10607)
+    at TT.getChatEndpoint (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:2311:15438)
+    at Object.o [as task] (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:834)
+    at Xd._processQueue (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:587:1056): Failed to fetch models (c3958e0f-5841-48c8-9078-c54c97ca2e12)
+2026-02-09 19:21:51.395 [info] Fetched model metadata in 389ms e69f181d-bd63-4551-902c-44bfe6bb9141
+2026-02-09 19:31:40.388 [info] Logged in as labalos
+2026-02-09 19:31:40.957 [info] Got Copilot token for labalos
+2026-02-09 19:31:41.044 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 19:46:41.659 [info] Fetched model metadata in 493ms 99700b2a-42eb-4019-8a30-16dd1b12c444
+2026-02-09 19:56:41.035 [info] Logged in as labalos
+2026-02-09 19:56:41.569 [info] Got Copilot token for labalos
+2026-02-09 19:56:41.661 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 19:56:42.137 [info] Fetched model metadata in 436ms 13d3f8da-0ef6-44f5-a31b-1a8caeb38377
+2026-02-09 20:21:41.615 [info] Logged in as labalos
+2026-02-09 20:21:42.261 [info] Got Copilot token for labalos
+2026-02-09 20:21:42.357 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 20:21:42.822 [info] Fetched model metadata in 422ms 8a3e43a8-8a57-49e6-a37d-20cb7522bd65
+2026-02-09 20:46:42.305 [info] Logged in as labalos
+2026-02-09 20:46:42.996 [info] Got Copilot token for labalos
+2026-02-09 20:46:43.086 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 21:13:39.642 [info] Logged in as labalos
+2026-02-09 21:13:39.958 [warning] Invalid copilot token: missing token: 403 
+2026-02-09 21:13:40.101 [info] Logged in as labalos
+2026-02-09 21:13:40.428 [warning] Invalid copilot token: missing token: 403 
+2026-02-09 21:13:40.468 [info] copilot token chat_enabled: undefined, sku: 
+2026-02-09 21:13:40.746 [info] Logged in as labalos
+2026-02-09 21:13:41.028 [warning] Invalid copilot token: missing token: 403 
+2026-02-09 21:13:41.030 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2026-02-09 21:13:41.030 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-02-09 21:13:41.030 [error] Error: Failed to get copilot token
+    at By._authShowWarnings (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:4102)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at By.getCopilotToken (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at Oy._getAuthSession (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2907)
+    at Object.o [as task] (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:640)
+    at Xd._processQueue (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:587:1056)
+2026-02-09 21:13:41.031 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-02-09 21:13:41.031 [error] Error: Failed to get copilot token
+    at By._authShowWarnings (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:4102)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at By.getCopilotToken (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at Oy._getAuthSession (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2907)
+    at t (/home/leo/.vscode-server/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2370)

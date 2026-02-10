@@ -1,0 +1,66 @@
+2026-02-09 22:20:44.087 [info] Can't use the Electron fetcher in this environment.
+2026-02-09 22:20:44.087 [info] Using the Node fetch fetcher.
+2026-02-09 22:20:44.087 [info] Initializing Git extension service.
+2026-02-09 22:20:44.087 [info] Successfully activated the vscode.git extension.
+2026-02-09 22:20:44.087 [info] Enablement state of the vscode.git extension: true.
+2026-02-09 22:20:44.087 [info] Successfully registered Git commit message provider.
+2026-02-09 22:20:46.022 [info] Logged in as labalos
+2026-02-09 22:20:46.746 [info] Got Copilot token for labalos
+2026-02-09 22:20:46.968 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 22:20:46.969 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-09 22:20:46.985 [info] Registering default platform agent...
+2026-02-09 22:20:47.260 [info] Fetched model metadata in 501ms bca34250-511f-4782-9d55-0b3aa26b449c
+2026-02-09 22:20:47.271 [info] activationBlocker from 'languageModelAccess' took for 3024ms
+2026-02-09 22:45:46.818 [info] Logged in as labalos
+2026-02-09 22:45:47.477 [info] Got Copilot token for labalos
+2026-02-09 22:45:47.602 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 23:10:47.544 [info] Logged in as labalos
+2026-02-09 23:10:48.126 [info] Got Copilot token for labalos
+2026-02-09 23:10:48.253 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 23:35:48.175 [info] Logged in as labalos
+2026-02-09 23:35:48.853 [info] Got Copilot token for labalos
+2026-02-09 23:35:48.944 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-09 23:35:49.381 [info] Fetched model metadata in 400ms b29f0a06-f725-459f-9eeb-a70d34295fcd
+2026-02-09 23:50:49.950 [info] Fetched model metadata in 455ms 8c45d3de-954d-40db-9535-6ab748bb49b7
+2026-02-10 00:00:48.903 [info] Logged in as labalos
+2026-02-10 00:00:49.597 [info] Got Copilot token for labalos
+2026-02-10 00:00:49.677 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 00:25:49.664 [info] Logged in as labalos
+2026-02-10 00:25:50.340 [info] Got Copilot token for labalos
+2026-02-10 00:25:50.433 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 00:50:50.386 [info] Logged in as labalos
+2026-02-10 00:50:51.029 [info] Got Copilot token for labalos
+2026-02-10 00:50:51.141 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 01:05:51.545 [info] Fetched model metadata in 317ms 8966e49e-2407-40b1-a80e-5864ca9a2c18
+2026-02-10 01:15:51.079 [info] Logged in as labalos
+2026-02-10 01:15:51.657 [info] Got Copilot token for labalos
+2026-02-10 01:15:51.748 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 01:15:52.180 [info] Fetched model metadata in 354ms 1d72add1-63f8-4b30-b83c-6102d8f808f6
+2026-02-10 01:30:52.580 [info] Fetched model metadata in 321ms 2a8af392-6b14-440f-a865-741137e7f1e1
+2026-02-10 01:40:51.698 [info] Logged in as labalos
+2026-02-10 01:40:52.265 [info] Got Copilot token for labalos
+2026-02-10 01:40:52.357 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 01:55:52.807 [info] Fetched model metadata in 327ms 0a0f52d6-089b-4e6f-a207-1f0d25c8da90
+2026-02-10 02:05:52.330 [info] Logged in as labalos
+2026-02-10 02:05:52.966 [info] Got Copilot token for labalos
+2026-02-10 02:05:53.056 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 02:05:53.485 [info] Fetched model metadata in 392ms 9ffd4c9a-8357-4c5e-8060-a535eb230ad9
+2026-02-10 02:20:53.925 [info] Fetched model metadata in 383ms 633be730-ec4f-4041-9644-5ef9be43e1af
+2026-02-10 02:30:53.007 [info] Logged in as labalos
+2026-02-10 02:30:53.624 [info] Got Copilot token for labalos
+2026-02-10 02:30:53.711 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 02:55:53.673 [info] Logged in as labalos
+2026-02-10 02:55:54.246 [info] Got Copilot token for labalos
+2026-02-10 02:55:54.329 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 02:55:54.760 [info] Fetched model metadata in 353ms 15976b77-4540-473d-b77d-2d3855b18921
+2026-02-10 03:10:55.259 [info] Fetched model metadata in 435ms 1d157f13-7c80-4105-a75e-f3ff7f061bf5
+2026-02-10 03:20:54.332 [info] Logged in as labalos
+2026-02-10 03:20:54.993 [info] Got Copilot token for labalos
+2026-02-10 03:20:55.114 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 03:45:55.037 [info] Logged in as labalos
+2026-02-10 03:45:55.756 [info] Got Copilot token for labalos
+2026-02-10 03:45:55.842 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2026-02-10 03:45:56.278 [info] Fetched model metadata in 396ms bebaa6a5-f49b-4188-b7fd-7b5aef9c6e12
+2026-02-10 04:10:55.808 [info] Logged in as labalos
+2026-02-10 04:10:56.431 [info] Got Copilot token for labalos
+2026-02-10 04:10:56.518 [info] copilot token chat_enabled: true, sku: free_limited_copilot

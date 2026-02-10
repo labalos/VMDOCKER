@@ -1,0 +1,42 @@
+@startuml
+skinparam arrowColor DeepSkyBlue
+skinparam classAttributeIconSize 0
+
+class Usuario {
+}
+class Proyecto {
+}
+class Solicitudes {
+}
+class "POST /login" as POST__login <<Route>> {
+}
+class "POST /register" as POST__register <<Route>> {
+}
+class "GET /" as GET__ <<Route>> {
+}
+class "POST /" as POST__ <<Route>> {
+}
+class "GET /:id" as GET___id <<Route>> {
+}
+class "PUT /:id" as PUT___id <<Route>> {
+}
+class "DELETE /:id" as DELETE___id <<Route>> {
+}
+class "PATCH /:id/estado" as PATCH___id_estado <<Route>> {
+}
+class "POST /:id/notas" as POST___id_notas <<Route>> {
+}
+POST__login --> Usuario
+POST__register --> Usuario
+GET__ --> Proyecto
+POST__ --> Proyecto
+GET___id --> Proyecto
+PUT___id --> Proyecto
+DELETE___id --> Proyecto
+POST__ --> Solicitudes
+GET__ --> Solicitudes
+GET___id --> Solicitudes
+PATCH___id_estado --> Solicitudes
+POST___id_notas --> Solicitudes
+
+@enduml

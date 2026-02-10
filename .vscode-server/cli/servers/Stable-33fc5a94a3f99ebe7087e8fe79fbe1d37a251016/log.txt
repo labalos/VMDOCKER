@@ -1,0 +1,32 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-0ec5bd78-5ec9-4402-9933-eedd02cecb5c
+Extension host agent listening on /tmp/code-0ec5bd78-5ec9-4402-9933-eedd02cecb5c
+
+[14:04:10] 
+
+
+
+
+[14:04:10] Extension host agent started.
+[14:04:11] [<unknown>][3d419354][ManagementConnection] New connection established.
+[14:04:11] [<unknown>][110dfff2][ExtensionHostConnection] New connection established.
+[14:04:11] [<unknown>][110dfff2][ExtensionHostConnection] <1348> Launched Extension Host Process.
+[14:04:11] [<unknown>][110dfff2][ExtensionHostConnection] <1348><stderr> Error reading NLS messages file /home/leo/.vscode-server/data/clp/cd618c86025deac7ac3fb37e746150d5.es/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/leo/.vscode-server/data/clp/cd618c86025deac7ac3fb37e746150d5.es/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/nls.messages.json'
+
+[14:04:50] [<unknown>][3d419354][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:04:50] [<unknown>][110dfff2][ExtensionHostConnection] <1348> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[14:04:50] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[14:04:50] Last EH closed, waiting before shutting down
+[14:04:57] [<unknown>][f43f4ba6][ManagementConnection] New connection established.
+[14:04:57] [<unknown>][4655ebb3][ExtensionHostConnection] New connection established.
+[14:04:57] [<unknown>][4655ebb3][ExtensionHostConnection] <1495> Launched Extension Host Process.
+[14:04:57] [<unknown>][4655ebb3][ExtensionHostConnection] <1495><stderr> Error reading NLS messages file /home/leo/.vscode-server/data/clp/cd618c86025deac7ac3fb37e746150d5.es/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/leo/.vscode-server/data/clp/cd618c86025deac7ac3fb37e746150d5.es/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/nls.messages.json'
+
