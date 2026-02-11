@@ -5,33 +5,22 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [variant, setVariant] = useState("C"); // Glass
-  const [visible, setVisible] = useState(true); // Navbar auto-hide
+  const [variant] = useState("C"); // Glass
+  const [visible, setVisible] = useState(true);
   const location = useLocation();
-
   const lastScrollY = useRef(0);
 
-  // Scroll listener para navbar fijo y visible/oculto
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-
-      // Aparece si scroll hacia arriba, desaparece si baja
-      if (currentScrollY < lastScrollY.current || currentScrollY < 50) {
-        setVisible(true);
-      } else if (currentScrollY > 50) {
-        setVisible(false);
-      }
-
+      setVisible(currentScrollY < lastScrollY.current || currentScrollY < 50);
       setScrolled(currentScrollY > 50);
       lastScrollY.current = currentScrollY;
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Cierra menú móvil al cambiar de ruta
   useEffect(() => {
     setMobileMenuOpen(false);
   }, [location]);
@@ -41,18 +30,17 @@ function Navbar() {
     { path: "/projects", label: "Projects" },
     { path: "/formulario", label: "Contact" },
   ];
-
   const isActive = (path) => location.pathname === path;
+  const closeMobile = () => setMobileMenuOpen(false);
 
   return (
     <nav
-      className={`${styles.navbar} 
-        ${scrolled ? styles.scrolled : ""} 
-        ${variant === "C" ? styles.glass : ""} 
-        ${visible ? styles.visible : styles.hidden}`}
+      className={`${styles.navbar} ${scrolled ? styles.scrolled : ""} ${variant === "C" ? styles.glass : ""} ${visible ? styles.visible : styles.hidden}`}
+      role="navigation"
+      aria-label="Main"
     >
       <div className={styles.container}>
-        <Link to="/" className={styles.logo}>
+        <Link to="/" className={styles.logo} onClick={closeMobile} aria-label="Go Home">
           <span className={styles.logoIcon}>🏗️</span>
           <span className={styles.logoText}>
             Build<span className={styles.logoHighlight}>Pro Menhorn</span>
@@ -64,12 +52,13 @@ function Navbar() {
             <Link
               key={link.path}
               to={link.path}
+              onClick={closeMobile}
               className={`${styles.navLink} ${isActive(link.path) ? styles.active : ""}`}
             >
               {link.label}
             </Link>
           ))}
-          <Link to="/formulario" className={styles.ctaButton}>
+          <Link to="/formulario" className={styles.ctaButton} onClick={closeMobile}>
             Get Quote
           </Link>
         </div>
@@ -77,20 +66,25 @@ function Navbar() {
         <button
           className={`${styles.hamburger} ${mobileMenuOpen ? styles.active : ""}`}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-expanded={mobileMenuOpen}
+          aria-label="Toggle menu"
         >
-          <span></span>
-          <span></span>
-          <span></span>
+          <span></span><span></span><span></span>
         </button>
       </div>
 
       <div className={`${styles.mobileMenu} ${mobileMenuOpen ? styles.mobileOpen : ""}`}>
         {navLinks.map((link) => (
-          <Link key={link.path} to={link.path} className={styles.mobileLink}>
+          <Link
+            key={link.path}
+            to={link.path}
+            onClick={closeMobile}
+            className={`${styles.mobileLink} ${isActive(link.path) ? styles.active : ""}`}
+          >
             {link.label}
           </Link>
         ))}
-        <Link to="/formulario" className={styles.mobileCta}>Get Quote</Link>
+        <Link to="/formulario" className={styles.mobileCta} onClick={closeMobile}>Get Quote</Link>
       </div>
     </nav>
   );

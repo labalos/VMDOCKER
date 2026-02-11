@@ -8,38 +8,35 @@ console.log(">>> Archivo proyectos.js CARGADO <<<");
 
 
 // ===============================
-// GET /proyectos — obtener proyectos con filtros
+// GET /proyectos — listar con filtros y paginación
 // ===============================
 router.get("/", async (req, res) => {
-
-  console.log(">>> ENTRÓ A LA RUTA GET /proyectos");
-
-  const query = {};
-
-  if (req.query.search) {
-    query.$or = [
-      { titulo: new RegExp(req.query.search, "i") },
-      { descripcion: new RegExp(req.query.search, "i") }
-    ];
-  }
-
-  if (req.query.categoria) {
-    query.categoria = new RegExp(`^${req.query.categoria}$`, "i");
-  }
-
-  if (req.query.ubicacion) {
-    query.ubicacion = new RegExp(`^${req.query.ubicacion}$`, "i");
-  }
-
-  if (req.query.fecha) {
-    query.fecha = req.query.fecha;
-  }
-
-  console.log("Query final:", query);
-
   try {
-    const proyectos = await Proyecto.find(query).sort({ fecha: -1 });
-    res.json(proyectos);
+    const { search, categoria, ubicacion, page = 1, limit = 10 } = req.query;
+    const query = {};
+
+    if (search) {
+      query.$or = [
+        { titulo: new RegExp(search, "i") },
+        { descripcion: new RegExp(search, "i") },
+      ];
+    }
+    if (categoria) query.categoria = categoria;
+    if (ubicacion) query.ubicacion = ubicacion;
+
+    const skip = (Number(page) - 1) * Number(limit);
+    const [items, total] = await Promise.all([
+      Proyecto.find(query).skip(skip).limit(Number(limit)).lean(),
+      Proyecto.countDocuments(query),
+    ]);
+
+    res.json({
+      items,
+      page: Number(page),
+      limit: Number(limit),
+      total,
+      pages: Math.ceil(total / Number(limit)),
+    });
   } catch (error) {
     console.error("Error obteniendo proyectos:", error);
     res.status(500).json({ error: "Error obteniendo proyectos" });
@@ -51,24 +48,15 @@ router.get("/", async (req, res) => {
 // POST /proyectos — crear proyecto (PROTEGIDO + IMÁGENES)
 // ===============================
 router.post("/", auth, upload.array("imagenes", 10), async (req, res) => {
-
   try {
     const imagenes = req.files?.map(file => file.path) || [];
-
-    const nuevoProyecto = new Proyecto({
-      ...req.body,
-      imagenes
-    });
-
+    const nuevoProyecto = new Proyecto({ ...req.body, imagenes });
     const proyectoGuardado = await nuevoProyecto.save();
-
     res.status(201).json(proyectoGuardado);
-
   } catch (error) {
     console.error("Error al crear proyecto:", error);
     res.status(400).json({ error: "Error al crear el proyecto" });
   }
-
 });
 
 

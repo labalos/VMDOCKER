@@ -1,7 +1,7 @@
 // scripts/verificar-admin.js
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Usuario = require('./models/Usuario');
+const Usuario = require('../models/Usuario');
 
 async function verificarAdmins() {
   try {
@@ -33,7 +33,7 @@ async function verificarAdmins() {
     }
     
     // Verificar proyectos
-    const Proyecto = require('./models/Proyecto');
+    const Proyecto = require('../models/Proyecto');
     const totalProyectos = await Proyecto.countDocuments();
     console.log(`📊 Total de proyectos en sistema: ${totalProyectos}`);
     

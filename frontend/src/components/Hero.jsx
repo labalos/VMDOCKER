@@ -5,6 +5,11 @@ import styles from "./Hero.module.css";
 function Hero() {
   const navigate = useNavigate();
 
+  const goTo = (path) => {
+    // evita navegación si ya estás en la ruta
+    if (window.location.pathname !== path) navigate(path);
+  };
+
   return (
     <section className={styles.hero}>
       <div className={styles.overlay} />
@@ -24,14 +29,14 @@ function Hero() {
           <Button 
             variant="secondary" 
             size="lg"
-            onClick={() => navigate("/formulario")}
+            onClick={() => goTo("/formulario")}
           >
             Get a Quote
           </Button>
           <Button 
             variant="outline" 
             size="lg"
-            onClick={() => navigate("/projects")}
+            onClick={() => goTo("/projects")}
           >
             View Projects
           </Button>

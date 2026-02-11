@@ -30,12 +30,12 @@ app.use(helmet({
 
 // CORS configurable
 const corsOptions = {
-  origin: process.env.NODE_ENV === 'production' 
-    ? process.env.FRONTEND_URL 
-    : ['http://localhost:3000', 'http://localhost:5173', 'http://localhost:3001'],
+  origin: process.env.NODE_ENV === 'production'
+    ? process.env.FRONTEND_URL
+    : ['http://localhost:3000', 'http://localhost:5173', 'http://192.168.1.28:5173'],
   credentials: true,
-  optionsSuccessStatus: 200
 };
+
 app.use(cors(corsOptions));
 
 // Logging con Morgan
@@ -50,50 +50,32 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // Servir archivos estáticos
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Desactivar ETag global para evitar 304 en JSON
+app.set('etag', false);
+
 // ============================================
 // 2. CONEXIÓN A MONGODB
 // ============================================
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/proyectos_db';
+const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URI || 'mongodb://localhost:27017/proyectos_db';
 
-mongoose.connect(MONGODB_URI, {
-  serverSelectionTimeoutMS: 5000,
-  socketTimeoutMS: 45000,
-})
-.then(() => {
-  console.log('✅ MongoDB conectado exitosamente');
-  
-  // Verificar índices después de conectar
-  setTimeout(async () => {
-    try {
-      const Proyecto = require('./models/Proyecto');
-      const indices = await Proyecto.collection.getIndexes();
-      console.log('📊 Índices de Proyectos:', Object.keys(indices));
-    } catch (error) {
-      console.log('⚠️ No se pudieron verificar índices:', error.message);
-    }
-  }, 1000);
-})
-.catch((error) => {
-  console.error('❌ Error conectando a MongoDB:', error.message);
-  
-  // En desarrollo, intentar conectar a localhost
-  if (process.env.NODE_ENV === 'development' && MONGODB_URI.includes('localhost')) {
-    console.log('🔄 Intentando conectar a MongoDB local...');
-    mongoose.connect('mongodb://127.0.0.1:27017/proyectos_db')
-      .then(() => console.log('✅ Conectado a MongoDB local'))
-      .catch(err => console.error('❌ Falló conexión local:', err.message));
-  }
-});
-
-// Eventos de conexión MongoDB
-mongoose.connection.on('error', (err) => {
-  console.error('❌ Error de MongoDB:', err.message);
+// Eventos de conexión
+mongoose.connection.on('connected', () => {
+  console.log('📊 Base de datos: ✅ Conectada');
 });
 
 mongoose.connection.on('disconnected', () => {
-  console.log('⚠️ MongoDB desconectado');
+  console.warn('📊 Base de datos: ❌ Desconectada');
 });
+
+// Conexión sin opciones obsoletas (Mongoose 9)
+mongoose.connect(MONGODB_URI)
+  .then(() => {
+    console.log('✅ MongoDB conectado exitosamente');
+  })
+  .catch((error) => {
+    console.error('❌ Error conectando a MongoDB:', error.message);
+  });
 
 // ============================================
 // 3. MIDDLEWARES PERSONALIZADOS
@@ -184,6 +166,40 @@ app.get('/api/debug/auth', require('./middleware/auth'), (req, res) => {
   });
 });
 
+// Endpoint de depuración de la BD
+app.get('/api/debug/db', async (req, res) => {
+  try {
+    const state = mongoose.connection.readyState; // 0=disc,1=conn,2=connecting,3=disconnecting
+    const dbName = mongoose.connection.name;
+    const uri = process.env.MONGODB_URI || process.env.MONGO_URI;
+    const collections = await mongoose.connection.db.listCollections().toArray();
+    const count = await mongoose.connection.db.collection('proyectos').countDocuments().catch(() => 0);
+
+    res.json({
+      state,
+      dbName,
+      uri,
+      collections: collections.map(c => c.name),
+      proyectosCount: count,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/api/debug/db/counts', async (req, res) => {
+  try {
+    const cols = await mongoose.connection.db.listCollections().toArray();
+    const counts = {};
+    for (const c of cols) {
+      counts[c.name] = await mongoose.connection.db.collection(c.name).countDocuments();
+    }
+    res.json({ dbName: mongoose.connection.name, counts });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
 // ============================================
 // 6. CONFIGURAR RUTAS DE LA API
 // ============================================
@@ -271,8 +287,9 @@ app.use((error, req, res, next) => {
 const PORT = process.env.PORT || 3001;
 
 // Solo iniciar servidor si no estamos en entorno de tests
+let server;
 if (process.env.NODE_ENV !== 'test') {
-  const server = app.listen(PORT, () => {
+  server = app.listen(PORT, '0.0.0.0', () => {
     console.log(`
     🚀 Servidor iniciado exitosamente
     📍 Puerto: ${PORT}
@@ -294,10 +311,8 @@ if (process.env.NODE_ENV !== 'test') {
   // Manejo de cierre elegante
   const shutdown = async (signal) => {
     console.log(`\n${signal} recibido. Cerrando servidor...`);
-    
     server.close(async () => {
       console.log('✅ Servidor cerrado.');
-      
       try {
         await mongoose.connection.close();
         console.log('✅ Conexión a MongoDB cerrada.');
@@ -307,27 +322,21 @@ if (process.env.NODE_ENV !== 'test') {
         process.exit(1);
       }
     });
-
-    // Forzar cierre después de 10 segundos
     setTimeout(() => {
       console.error('⚠️ Forzando cierre...');
       process.exit(1);
     }, 10000);
   };
 
-  // Manejar señales de terminación
   process.on('SIGTERM', () => shutdown('SIGTERM'));
   process.on('SIGINT', () => shutdown('SIGINT'));
-
-  // Manejar errores no capturados
   process.on('uncaughtException', (error) => {
     console.error('⚠️ Error no capturado:', error.message);
     shutdown('uncaughtException');
   });
-
-  // Manejar promesas rechazadas no manejadas
-  process.on('unhandledRejection', (reason, promise) => {
+  process.on('unhandledRejection', (reason) => {
     console.error('⚠️ Promesa rechazada no manejada:', reason);
+    shutdown('unhandledRejection');
   });
 }
 

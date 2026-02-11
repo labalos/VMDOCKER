@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button, Input, Card, CardBody } from "./ui";
 import styles from "./Formulario.module.css";
@@ -10,6 +9,8 @@ const servicios = [
   "Flooring",
   "Other"
 ];
+
+const BACKEND_URL = '/api';
 
 export default function Formulario() {
   const [formData, setFormData] = useState({
@@ -67,8 +68,7 @@ export default function Formulario() {
     setSuccess(false);
     
     try {
-      const BACKEND_URL = "http://localhost:3000";
-      const endpoint = BACKEND_URL + "/api/solicitudes";
+      const endpoint = BACKEND_URL + "/solicitudes";
       
       const requestData = {
         nombre: formData.nombre.trim(),
@@ -87,12 +87,15 @@ export default function Formulario() {
           "Accept": "application/json"
         },
         body: JSON.stringify(requestData),
-        mode: "cors",
         credentials: "include"
       });
       
-      const data = await response.json();
-      
+      let data;
+      try {
+        data = await response.json();
+      } catch {
+        throw new Error(`Error ${response.status}`);
+      }
       if (!response.ok) {
         throw new Error(data.error || data.message || `Error ${response.status}`);
       }

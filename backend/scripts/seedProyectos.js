@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
-const Proyecto = require("./models/Proyecto"); // Ajusta si tu path es distinto
-const conectarDB = require("./database");
+const Proyecto = require("../models/Proyecto"); // Ajusta si tu path es distinto
+const conectarDB = require("../database");
 
 async function seed() {
   await conectarDB();

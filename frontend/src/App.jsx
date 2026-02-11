@@ -8,7 +8,7 @@ import Formulario from './components/Formulario';
 import Home from './Home';
 import AdminSolicitudes from './components/AdminSolicitudes';
 import ProtectedRoute from './components/ProtectedRoute';
-import Login from './components/Login';
+import Login from './pages/Login';
 import Navbar from './components/Navbar';
 import Proyectos from './Proyectos';
 import AdminLayout from "./components/AdminLayout";
@@ -28,14 +28,14 @@ function App() {
         <Route path="/admin/*" element={<AdminRoutes />} />
 
         {/* PÚBLICO */}
-        <Route path="/*" element={<PublicRoutes onLogin={setUser} />} />
+        <Route path="/*" element={<PublicRoutes />} />
       </Routes>
     </Router>
   );
 }
 
 // Rutas públicas
-function PublicRoutes({ onLogin }) {
+function PublicRoutes() {
   return (
     <>
       <Navbar />
@@ -43,7 +43,7 @@ function PublicRoutes({ onLogin }) {
         <Route path="/" element={<LandingPage />} />
         <Route path="/formulario" element={<Formulario />} />
         <Route path="/projects" element={<Proyectos />} />
-        <Route path="/login" element={<Login onLogin={onLogin} />} />
+        <Route path="/login" element={<Login />} /> {/* quitar onLogin */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

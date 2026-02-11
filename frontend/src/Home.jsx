@@ -1,56 +1,52 @@
 import { useEffect, useState } from "react";
 import styles from "./Home.module.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
-
-const fetchWithAuth = async (endpoint, options = {}, token) => {
-  const headers = {
-    ...(options.body instanceof FormData ? {} : { "Content-Type": "application/json" }),
-    ...(token && { "x-token": token }),
-    ...options.headers,
-  };
-
-  const res = await fetch(`${API_URL}${endpoint}`, { ...options, headers });
-  if (!res.ok) throw new Error((await res.json()).message || `Error ${res.status}`);
-  return res.json();
-};
+const API_URL = "/api/admin"; // usa el proxy hacia backend:3001
 
 export default function Home() {
   const token = localStorage.getItem("token");
+  const navigate = useNavigate();
+
+  const fetchWithAuth = async (endpoint, options = {}, tkn = token) => {
+    const headers = {
+      ...(options.body instanceof FormData ? {} : { "Content-Type": "application/json" }),
+      ...(tkn && { "x-token": tkn }),
+      ...options.headers,
+    };
+    const res = await fetch(`${API_URL}${endpoint}`, { ...options, headers });
+    if (!res.ok) {
+      let msg = `Error ${res.status}`;
+      try { msg = (await res.json()).message || msg; } catch {}
+      throw new Error(msg);
+    }
+    return res.json();
+  };
 
   const [proyectos, setProyectos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
   const [modalAbierto, setModalAbierto] = useState(false);
   const [proyectoEditando, setProyectoEditando] = useState(null);
-
-  const [formCrear, setFormCrear] = useState({
-    titulo: "",
-    descripcion: "",
-    categoria: "",
-    ubicacion: "",
-  });
-
-  const [formEditar, setFormEditar] = useState({
-    titulo: "",
-    descripcion: "",
-    categoria: "",
-    ubicacion: "",
-  });
-
+  const [formCrear, setFormCrear] = useState({ titulo: "", descripcion: "", categoria: "", ubicacion: "" });
+  const [formEditar, setFormEditar] = useState({ titulo: "", descripcion: "", categoria: "", ubicacion: "" });
   const [imagenes, setImagenes] = useState([]);
 
   useEffect(() => {
+    if (!token) {
+      navigate("/login", { replace: true });
+      return;
+    }
     cargarProyectos();
-  }, []);
+  }, [token]);
 
   const cargarProyectos = async () => {
     try {
-      const data = await fetchWithAuth("/proyectos", {}, token);
-      setProyectos(data);
+      const data = await fetchWithAuth("/proyectos");
+      const lista = Array.isArray(data) ? data : data.items || [];
+      setProyectos(lista);
     } catch (err) {
-      console.error(err);
+      console.error("Error cargando proyectos:", err);
     } finally {
       setLoading(false);
     }
@@ -59,7 +55,7 @@ export default function Home() {
   const handleCrear = async (e) => {
     e.preventDefault();
     try {
-      const nuevo = await fetchWithAuth(
+      const resp = await fetchWithAuth(
         "/proyectos",
         {
           method: "POST",
@@ -67,7 +63,7 @@ export default function Home() {
         },
         token
       );
-
+      const nuevo = resp.item || resp; // por si el backend envía { item }
       setProyectos((p) => [...p, nuevo]);
       setFormCrear({ titulo: "", descripcion: "", categoria: "", ubicacion: "" });
       setMostrarFormulario(false);

@@ -33,3 +33,5 @@
 
 2026-02-10 17:36:26.228 [info] [<unknown>][f43f4ba6][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 2026-02-10 17:36:26.790 [info] [<unknown>][4655ebb3][ExtensionHostConnection] <1495> Extension Host Process exited with code: 0, signal: null.
+2026-02-10 20:16:19.490 [error] Error: connect ECONNREFUSED 127.0.0.1:65371
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
