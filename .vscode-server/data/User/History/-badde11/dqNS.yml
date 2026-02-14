@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  mongodb:
+    image: mongo:4.4
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=appdb
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.runCommand({ ping: 1 })"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    container_name: backend
+    working_dir: /usr/src/app
+    environment:
+      - PORT=3001
+      - MONGO_URI=mongodb://mongodb:27017/appdb
+      - JWT_SECRET=${JWT_SECRET}
+      - NODE_ENV=development
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/usr/src/app        # ← AHORA SÍ monta tu código real
+      - /usr/src/app/node_modules     # ← Evita que node_modules se sobrescriba
+    command: ["npm", "start"]
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    working_dir: /usr/src/app
+    environment:
+      - VITE_API_BASE=http://backend:3001/api
+      - CHOKIDAR_USEPOLLING=true
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/usr/src/app
+    command: ["npm", "run", "dev", "--", "--host"]
+
+volumes:
+  mongo_data:

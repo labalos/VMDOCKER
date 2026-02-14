@@ -1,0 +1,6 @@
+2026-02-14 15:47:14.086 [info] Nivel de registro: Info
+2026-02-14 15:47:16.198 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: fetch failed
+2026-02-14 15:47:39.345 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: fetch failed
+2026-02-14 15:47:39.402 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: fetch failed
+2026-02-14 15:47:59.822 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: fetch failed
+2026-02-14 15:47:59.823 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: fetch failed

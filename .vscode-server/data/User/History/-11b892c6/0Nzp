@@ -1,0 +1,19 @@
+# MongoDB
+MONGO_URI=mongodb://localhost:27017/proyectos_db
+MONGODB_URI=mongodb://localhost:27017/proyectos_db
+
+# Puerto del backend
+PORT=3001
+NODE_ENV=development
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=dz5f818wn
+CLOUDINARY_API_KEY=225351326824431
+CLOUDINARY_API_SECRET=_4MfOqWviAceCrGzYsR85-oIk44
+
+# JWT
+JWT_SECRET=unasecretomuylargo123
+
+# Email
+EMAIL_USER=abainf@gmail.com
+EMAIL_PASS=eokbnkjiwdnrofoz

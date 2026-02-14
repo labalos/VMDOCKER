@@ -1,4 +1,5 @@
-Listening on 127.0.0.1:46381
-[2026-02-10 17:31:25] info Disposed of connection to running server.
-[2026-02-10 17:31:25] info Checking /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/log.txt and /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/pid.txt for a running server...
-[2026-02-10 17:31:25] info Found running server (pid=1318)
+Listening on 127.0.0.1:36673
+[2026-02-14 15:59:12] info Disposed of connection to running server.
+[2026-02-14 15:59:12] info Checking /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/log.txt and /home/leo/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/pid.txt for a running server...
+[2026-02-14 15:59:12] info Starting server...
+[2026-02-14 15:59:13] info Server started

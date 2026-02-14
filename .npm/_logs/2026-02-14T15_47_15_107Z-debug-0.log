@@ -1,0 +1,25 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/leo/.cache/typescript/5.7/.npmrc
+5 silly config load:file:/home/leo/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/leo/.npm/_logs/2026-02-14T15_47_15_107Z-
+10 verbose logfile /home/leo/.npm/_logs/2026-02-14T15_47_15_107Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET https://registry.npmjs.org/types-registry attempt 1 failed with EAI_AGAIN
+16 http fetch GET https://registry.npmjs.org/types-registry attempt 2 failed with EAI_AGAIN
+17 http fetch GET https://registry.npmjs.org/types-registry attempt 3 failed with EAI_AGAIN
+18 http fetch GET 200 https://registry.npmjs.org/types-registry 70185ms (cache stale)
+19 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:617342 disposed:false
+20 silly idealTree buildDeps
+21 silly fetch manifest types-registry@0.1.756
+22 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+23 http fetch GET https://registry.npmjs.org/types-registry attempt 1 failed with EAI_AGAIN
+24 http fetch GET https://registry.npmjs.org/types-registry attempt 2 failed with EAI_AGAIN

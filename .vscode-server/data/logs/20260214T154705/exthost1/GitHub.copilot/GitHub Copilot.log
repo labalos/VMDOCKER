@@ -1,0 +1,34 @@
+2026-02-14 15:47:14.745 [info] [certificates] Removed 3 expired certificates
+2026-02-14 15:47:32.711 [error] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at nle.fetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2026-02-14 15:47:54.400 [error] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at nle.fetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2026-02-14 15:48:14.875 [error] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at nle.fetch (/home/leo/.vscode-server/extensions/github.copilot-1.277.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}

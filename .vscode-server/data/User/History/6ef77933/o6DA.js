@@ -1,0 +1,39 @@
+const express = require('express');
+const router = express.Router();
+const Proyecto = require('../models/Proyecto');
+
+router.get("/", async (req, res) => {
+  try {
+    const { search, categoria, ubicacion, page = 1, limit = 10 } = req.query;
+    const query = {};
+
+    if (search) {
+      query.$or = [
+        { titulo: new RegExp(search, "i") },
+        { descripcion: new RegExp(search, "i") },
+      ];
+    }
+    if (categoria) query.categoria = categoria;
+    if (ubicacion) query.ubicacion = ubicacion;
+
+    const skip = (Number(page) - 1) * Number(limit);
+    const [items, total] = await Promise.all([
+      Proyecto.find(query).skip(skip).limit(Number(limit)).lean(),
+      Proyecto.countDocuments(query),
+    ]);
+
+    res.set({
+      "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+      Pragma: "no-cache",
+      Expires: "0",
+      "Surrogate-Control": "no-store",
+    });
+
+    res.status(200).json(items);
+  } catch (error) {
+    console.error("Error obteniendo proyectos:", error);
+    res.status(500).json({ error: "Error obteniendo proyectos" });
+  }
+});
+
+module.exports = router;

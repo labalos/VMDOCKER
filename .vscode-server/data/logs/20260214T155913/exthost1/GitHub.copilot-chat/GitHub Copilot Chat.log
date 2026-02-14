@@ -1,0 +1,226 @@
+2026-02-14 15:59:22.181 [info] Can't use the Electron fetcher in this environment.
+2026-02-14 15:59:22.181 [info] Using the Node fetch fetcher.
+2026-02-14 15:59:22.181 [info] Initializing Git extension service.
+2026-02-14 15:59:22.181 [info] Successfully activated the vscode.git extension.
+2026-02-14 15:59:22.181 [info] Enablement state of the vscode.git extension: true.
+2026-02-14 15:59:22.181 [info] Successfully registered Git commit message provider.
+2026-02-14 15:59:27.059 [info] Logged in as labalos
+2026-02-14 15:59:28.696 [info] Got Copilot token for labalos
+2026-02-14 15:59:29.581 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 15:59:29.581 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-14 15:59:29.602 [info] Registering default platform agent...
+2026-02-14 15:59:29.803 [info] Fetched model metadata in 1081ms 30ccfefc-169b-4fc0-ab4c-2e1df3c949bd
+2026-02-14 15:59:29.810 [info] activationBlocker from 'languageModelAccess' took for 7518ms
+2026-02-14 16:00:36.721 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:00:36.729 [info] request done: requestId: [927fe058-8003-4aa0-b0ee-f995eb28c977] model deployment ID: []
+2026-02-14 16:00:39.934 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:00:39.940 [info] request done: requestId: [4403f3ad-99e7-4f51-b014-10d8eb985aa2] model deployment ID: []
+2026-02-14 16:01:43.184 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:01:43.187 [info] request done: requestId: [95dcef15-a9d8-4464-831a-2a6dfdd596b7] model deployment ID: []
+2026-02-14 16:01:46.201 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:01:46.205 [info] request done: requestId: [c61fce84-f188-4e0d-9503-e7caddab3911] model deployment ID: []
+2026-02-14 16:02:23.053 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:02:23.054 [info] request done: requestId: [f3a55e49-8d31-4578-8394-6de85d8edb45] model deployment ID: []
+2026-02-14 16:02:26.568 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:02:26.570 [info] request done: requestId: [adef8eb0-70bb-499e-99e7-3e025be00ec5] model deployment ID: []
+2026-02-14 16:03:48.218 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:03:48.224 [info] request done: requestId: [2e571386-5c04-4a4c-8ab8-27618fa3e95c] model deployment ID: []
+2026-02-14 16:03:54.954 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:03:54.961 [info] request done: requestId: [48710e7e-8a31-43d5-8269-803859e70096] model deployment ID: []
+2026-02-14 16:05:03.524 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [50b9968a-e78e-439b-980a-49abc01e4351]
+2026-02-14 16:05:19.692 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [3eba140e-3570-46f4-a38a-1d3396d69a15]
+2026-02-14 16:12:28.765 [info] Fetched model metadata in 372ms 86d1b649-68be-45b5-a403-6132e0acc1ce
+2026-02-14 16:12:35.108 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:12:35.114 [info] request done: requestId: [838100e2-c495-4195-b05f-21f47f6fd735] model deployment ID: []
+2026-02-14 16:12:41.155 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:12:41.160 [info] request done: requestId: [66b9e23a-549b-47ae-b248-14eae8c65a06] model deployment ID: []
+2026-02-14 16:15:23.412 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [c1a93b55-28ba-4c4c-b889-c743630ebd65]
+2026-02-14 16:15:53.381 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [05f0ef32-2625-497d-8895-26623375de3e]
+2026-02-14 16:16:43.258 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [41a3c652-1338-494f-b2b7-915af5118eab]
+2026-02-14 16:17:12.991 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [dfcdc472-f01d-4204-afe7-9c05a4408e1c]
+2026-02-14 16:17:58.616 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:17:58.626 [info] request done: requestId: [0d2a8601-c7e7-4076-8526-c153aa73fd00] model deployment ID: []
+2026-02-14 16:18:03.023 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:18:03.026 [info] request done: requestId: [dd3010a8-c532-4f67-a184-908d717782c1] model deployment ID: []
+2026-02-14 16:20:04.920 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [7447ac5c-918f-4533-b1ed-0f54b233221f]
+2026-02-14 16:25:26.883 [info] Fetched model metadata in 357ms 534a4028-7498-4c09-bf3c-c2ff9b3686a3
+2026-02-14 16:25:29.998 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:25:30.001 [info] request done: requestId: [c9f06310-f0f8-41c0-9d24-ee59023b510c] model deployment ID: []
+2026-02-14 16:25:33.455 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:25:33.457 [info] request done: requestId: [5006e0c1-b154-4c36-ba14-6122498da72f] model deployment ID: []
+2026-02-14 16:25:47.366 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [ebbafc64-363c-4516-ab63-9aa12ab71da4]
+2026-02-14 16:29:30.844 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:29:30.851 [info] request done: requestId: [ed480cb3-66cf-4d48-bf54-da67124fdb73] model deployment ID: []
+2026-02-14 16:29:34.074 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:29:34.083 [info] request done: requestId: [21b3cdb6-20ea-42de-a67f-b7a3a918f310] model deployment ID: []
+2026-02-14 16:37:51.569 [info] Fetched model metadata in 332ms 11eb1d86-39c8-4e85-8aae-df3035ed1512
+2026-02-14 16:37:56.147 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:37:56.155 [info] request done: requestId: [12a04f35-b389-4414-b6a8-1b132dc0cfa7] model deployment ID: []
+2026-02-14 16:38:00.468 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:38:00.474 [info] request done: requestId: [d6797cf6-ea85-42c1-8e0e-c4148d5bcd10] model deployment ID: []
+2026-02-14 16:38:11.464 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [8b909751-6904-4377-a6cd-874b443d6a2d]
+2026-02-14 16:38:20.271 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [cc65255d-7728-4868-aa03-b131194805bb]
+2026-02-14 16:44:45.227 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:44:45.238 [info] request done: requestId: [b7a91628-26a3-40c4-8a20-d903885bc2b9] model deployment ID: []
+2026-02-14 16:44:48.691 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:44:48.697 [info] request done: requestId: [0057d2a7-e631-4d3c-8219-627f13ff1eef] model deployment ID: []
+2026-02-14 16:45:27.735 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:45:27.741 [info] request done: requestId: [4a9fa1ea-c350-4829-b037-6930c6803f76] model deployment ID: []
+2026-02-14 16:45:30.684 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:45:30.692 [info] request done: requestId: [b0147dd0-79df-474a-9d27-92034a8d44ce] model deployment ID: []
+2026-02-14 16:45:49.578 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [5dd0b51a-8668-47e9-82ba-c72c99bca379]
+2026-02-14 16:46:37.439 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [4d4a9ae4-61c6-4ea8-a3c1-02f77566be76]
+2026-02-14 16:50:33.457 [info] Fetched model metadata in 271ms 9904d593-d155-4ac5-8fc1-6ba4533a0637
+2026-02-14 16:50:45.568 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:50:45.575 [info] request done: requestId: [129d6f28-87b4-427b-8d30-a52510d669fd] model deployment ID: []
+2026-02-14 16:50:51.086 [info] message 0 returned. finish reason: [stop]
+2026-02-14 16:50:51.091 [info] request done: requestId: [cb9b068a-ccea-43ab-8102-71a61f708c31] model deployment ID: []
+2026-02-14 17:00:24.642 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:00:24.649 [info] request done: requestId: [ce5809e4-7099-4976-b98e-7c473619a206] model deployment ID: []
+2026-02-14 17:00:27.699 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:00:27.701 [info] request done: requestId: [74bac97b-31a4-4d0c-93b5-34def5df9592] model deployment ID: []
+2026-02-14 17:00:37.812 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:00:37.825 [info] request done: requestId: [d889b080-09bd-44e8-a4da-b0c43a158bf7] model deployment ID: []
+2026-02-14 17:00:38.169 [info] Fetched model metadata in 325ms 98ab92ef-53ce-448c-a89f-49502c44ba44
+2026-02-14 17:00:40.930 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:00:40.933 [info] request done: requestId: [0610bbd9-7d00-4d48-809f-3ea12827dfdf] model deployment ID: []
+2026-02-14 17:00:51.133 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:00:51.140 [info] request done: requestId: [3e6e7ec3-2af9-4662-979b-05da0a7d4e4b] model deployment ID: []
+2026-02-14 17:00:53.866 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:00:53.876 [info] request done: requestId: [26111c9b-9d6d-411b-a8bd-689ef2c68224] model deployment ID: []
+2026-02-14 17:01:00.414 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [0dbfa586-74d2-497e-bd3f-7ab0c013ef9d]
+2026-02-14 17:10:52.249 [info] Fetched model metadata in 371ms 32d98a07-e6e7-4aa6-b89c-468483624c9a
+2026-02-14 17:10:59.976 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:10:59.983 [info] request done: requestId: [0dc6ef01-f29c-47c3-840d-b8c79eae6386] model deployment ID: []
+2026-02-14 17:11:06.203 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:11:06.209 [info] request done: requestId: [9d1b9c1c-b303-4cc1-8aac-1eab85dc2c0b] model deployment ID: []
+2026-02-14 17:21:52.233 [info] Fetched model metadata in 379ms c11454fa-641f-4702-9253-2aa0e6b74102
+2026-02-14 17:21:57.639 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:21:57.645 [info] request done: requestId: [57278051-a644-4b48-b8ee-7abc353df576] model deployment ID: []
+2026-02-14 17:22:04.382 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:22:04.386 [info] request done: requestId: [015745ca-8075-4346-b5e8-2b045f0db7ea] model deployment ID: []
+2026-02-14 17:22:38.746 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [3b9dca37-4c2d-4671-8fa5-9e85379f98c8]
+2026-02-14 17:22:39.605 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [31da2870-013b-47d0-bf8e-facaea62a750]
+2026-02-14 17:23:04.839 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:23:04.846 [info] request done: requestId: [449b4bf4-a607-42f8-9118-e2864836e261] model deployment ID: []
+2026-02-14 17:23:07.432 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:23:07.440 [info] request done: requestId: [ed8e96f3-94f4-4664-9796-5491077e13fd] model deployment ID: []
+2026-02-14 17:23:07.448 [info] [inline fix] Problems generating edits: Find line 0 does not match line 14 [invalid patch], invalid patches: 1
+2026-02-14 17:23:34.224 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:23:34.231 [info] request done: requestId: [e5fd2308-9383-4528-9c75-c0861ae3df16] model deployment ID: []
+2026-02-14 17:23:35.236 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:23:35.238 [info] request done: requestId: [a67e668e-cf8f-4b68-9858-be70fed90d78] model deployment ID: []
+2026-02-14 17:23:46.483 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:23:46.491 [info] request done: requestId: [d55a1fe0-51d5-43b7-ba27-bcc6fc04f462] model deployment ID: []
+2026-02-14 17:23:47.900 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:23:47.906 [info] request done: requestId: [9016d192-ca68-4bc5-b5b2-7aa60c78350e] model deployment ID: []
+2026-02-14 17:25:09.906 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:25:09.914 [info] request done: requestId: [1568a8b5-420c-4b94-85fc-d60891416266] model deployment ID: []
+2026-02-14 17:25:17.784 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:25:17.787 [info] request done: requestId: [463d163a-c16b-4113-b2db-cbfc8d418c1e] model deployment ID: []
+2026-02-14 17:26:11.693 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [54d7c97f-d05f-4f07-a2c9-04c21ab74c32]
+2026-02-14 17:26:29.288 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [7a7e331f-8d29-4984-ac09-03842bff958b]
+2026-02-14 17:26:37.697 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [5e75030a-573b-44bf-b5ed-c504c95d3a27]
+2026-02-14 17:26:46.676 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [799cf252-5072-440e-aba9-de7c8555b7fc]
+2026-02-14 17:27:37.468 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:27:37.475 [info] request done: requestId: [ae0eb765-b57a-4b94-98e9-c675b000089a] model deployment ID: []
+2026-02-14 17:27:41.425 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:27:41.431 [info] request done: requestId: [63b9d120-10de-4b1a-a3d6-66c4d97e2d59] model deployment ID: []
+2026-02-14 17:27:51.783 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [c79595fe-5aae-4c40-9fa8-fad3c4ea5395]
+2026-02-14 17:28:16.736 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:28:16.745 [info] request done: requestId: [67fd02a8-04ac-4f43-aadc-4cb8608f600a] model deployment ID: []
+2026-02-14 17:28:21.936 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:28:21.943 [info] request done: requestId: [a6976129-e60f-4979-a5c7-1d872c9cc395] model deployment ID: []
+2026-02-14 17:28:27.148 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [25e16760-63bb-47f5-a94c-1168aef97701]
+2026-02-14 17:28:35.369 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [40b7c3fd-ac48-4abd-84aa-1a945d3b7edb]
+2026-02-14 17:28:50.992 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [c65bf6c9-4855-464f-a6aa-cb650777865b]
+2026-02-14 17:29:14.150 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:29:14.154 [info] request done: requestId: [48f8cd5b-a379-43b3-af7f-4e0e58fa7745] model deployment ID: []
+2026-02-14 17:29:21.067 [info] message 0 returned. finish reason: [stop]
+2026-02-14 17:29:21.072 [info] request done: requestId: [e468843c-49f0-4da2-aa19-d02ee6e13c01] model deployment ID: []
+2026-02-14 17:29:34.535 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [1e2de184-a1e3-4d77-8570-05c3db4e8bfa]
+2026-02-14 17:30:39.660 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [1dc711f7-134f-4de5-8ed6-c6a9317a72a8]
+2026-02-14 17:59:35.169 [info] Fetched model metadata in 401ms 97b1e5cc-4d87-4a50-8ecc-18ce86af5143
+2026-02-14 18:14:35.610 [info] Fetched model metadata in 383ms d402e206-542f-4254-8b88-6a469f0b5c35
+2026-02-14 18:17:51.542 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:17:51.548 [info] request done: requestId: [a091186c-8b3b-4f88-a187-6740649a6cf6] model deployment ID: []
+2026-02-14 18:17:55.365 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:17:55.373 [info] request done: requestId: [2851d480-fda1-4b8f-8005-967b0552bf64] model deployment ID: []
+2026-02-14 18:19:39.417 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:19:39.428 [info] request done: requestId: [67913cbe-30bc-4b99-b6fd-082d6d207b23] model deployment ID: []
+2026-02-14 18:19:43.852 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:19:43.854 [info] request done: requestId: [06c9b231-9924-4174-9b3d-c375433d8f8b] model deployment ID: []
+2026-02-14 18:20:37.761 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [6dd861c4-0309-495a-8691-54716b8d5112]
+2026-02-14 18:20:59.597 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [0b018b68-790a-48a8-b6b2-103faea7438b]
+2026-02-14 18:21:08.352 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [d3545df7-a073-4b3c-b90d-d2d1c9b74bb9]
+2026-02-14 18:23:01.473 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:23:01.480 [info] request done: requestId: [74a34c07-282e-4b18-ab29-713c6169a4ba] model deployment ID: []
+2026-02-14 18:23:05.041 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:23:05.048 [info] request done: requestId: [bd3a943c-0d94-4c36-a0ee-71af9af12309] model deployment ID: []
+2026-02-14 18:23:08.822 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:23:08.828 [info] request done: requestId: [6a747f04-e1fd-48ce-8c44-22996e22410d] model deployment ID: []
+2026-02-14 18:23:12.073 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:23:12.074 [info] request done: requestId: [35958fe6-5489-4856-b2a2-a81136254000] model deployment ID: []
+2026-02-14 18:23:29.212 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [ef360de8-ccf7-4ae7-83a0-3126605c0d40]
+2026-02-14 18:27:21.289 [info] Fetched model metadata in 1339ms 3a746981-c021-4805-9b54-92f351016fcc
+2026-02-14 18:27:23.946 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:27:23.948 [info] request done: requestId: [f56c0bd7-f472-4287-86a6-ce6b8bb5ad46] model deployment ID: []
+2026-02-14 18:27:28.478 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:27:28.480 [info] request done: requestId: [c65d7324-fc1d-4b9a-8063-86e206e6f4ac] model deployment ID: []
+2026-02-14 18:27:41.902 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [86b32ce9-9d04-486b-9910-ecce3f759674]
+2026-02-14 18:27:49.492 [info] srequest done: chatRequestId: [undefined], speculationRequestId: [69634d35-3978-43cd-97b5-f19c10014d59]
+2026-02-14 18:28:18.701 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:28:18.713 [info] request done: requestId: [d3a1f2af-11c0-4f69-9c73-b48ce4cdf19f] model deployment ID: []
+2026-02-14 18:28:22.008 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:28:22.010 [info] request done: requestId: [c06f60b1-f97d-4e53-98b3-bbb0eac49c20] model deployment ID: []
+2026-02-14 18:32:42.961 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:32:42.965 [info] request done: requestId: [5f22f6fb-d7f7-48d3-b9f7-9b894f47f99a] model deployment ID: []
+2026-02-14 18:32:44.616 [info] Request ID for failed request: e0e31897-c36e-4739-a492-6f946e2bd3c3
+2026-02-14 18:32:44.633 [error] You've reached your monthly chat messages limit. Upgrade to Copilot Pro (30-day free trial) or wait for your limit to reset.
+2026-02-14 18:32:44.863 [info] Logged in as labalos
+2026-02-14 18:32:45.532 [info] Got Copilot token for labalos
+2026-02-14 18:32:45.549 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:32:45.793 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:32:58.967 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:32:58.974 [info] request done: requestId: [b1474c18-064f-4795-b220-f8d9aa67db24] model deployment ID: []
+2026-02-14 18:32:59.733 [info] Request ID for failed request: 13ef6dea-3d59-4313-b3ed-dac786d5c68d
+2026-02-14 18:32:59.742 [error] You've reached your monthly chat messages limit. Upgrade to Copilot Pro (30-day free trial) or wait for your limit to reset.
+2026-02-14 18:32:59.899 [info] Logged in as labalos
+2026-02-14 18:33:00.458 [info] Got Copilot token for labalos
+2026-02-14 18:33:00.465 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:33:00.665 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:33:05.496 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:33:05.502 [info] request done: requestId: [f4fd6131-4469-4932-82d5-79c780efc05f] model deployment ID: []
+2026-02-14 18:33:06.323 [info] Request ID for failed request: 729c167e-c7e9-4ce3-ac74-7a28edfec444
+2026-02-14 18:33:06.333 [error] You've reached your monthly chat messages limit. Upgrade to Copilot Pro (30-day free trial) or wait for your limit to reset.
+2026-02-14 18:33:06.501 [info] Logged in as labalos
+2026-02-14 18:33:07.099 [info] Got Copilot token for labalos
+2026-02-14 18:33:07.108 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:33:07.326 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:39:49.297 [info] Fetched model metadata in 460ms e35d48f4-421d-4eef-944a-85e6bed2e597
+2026-02-14 18:39:51.672 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:39:51.678 [info] request done: requestId: [ba30fabd-baea-47cd-9a9d-57407bd89a1e] model deployment ID: []
+2026-02-14 18:39:53.052 [info] Request ID for failed request: 3ce0ffee-101d-407c-aa0c-9579d60b6f7c
+2026-02-14 18:39:53.068 [error] You've reached your monthly chat messages limit. Upgrade to Copilot Pro (30-day free trial) or wait for your limit to reset.
+2026-02-14 18:39:53.369 [info] Logged in as labalos
+2026-02-14 18:39:54.052 [info] Got Copilot token for labalos
+2026-02-14 18:39:54.067 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:39:54.546 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:40:09.486 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:40:09.491 [info] request done: requestId: [72f8e84e-1a21-4212-a328-ac333a606e4f] model deployment ID: []
+2026-02-14 18:40:10.353 [info] Request ID for failed request: 319ceb70-f33f-42e5-a5bc-45eee0a577b4
+2026-02-14 18:40:10.365 [error] You've reached your monthly chat messages limit. Upgrade to Copilot Pro (30-day free trial) or wait for your limit to reset.
+2026-02-14 18:40:10.554 [info] Logged in as labalos
+2026-02-14 18:40:11.128 [info] Got Copilot token for labalos
+2026-02-14 18:40:11.143 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:40:11.384 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 18:59:55.784 [info] Fetched model metadata in 410ms 8970f0c3-6677-484b-9fd9-92e54fe9b9ef
+2026-02-14 18:59:59.024 [info] message 0 returned. finish reason: [stop]
+2026-02-14 18:59:59.035 [info] request done: requestId: [c8215970-6078-4b0b-959f-5258c71164ab] model deployment ID: []
+2026-02-14 19:00:00.447 [info] Request ID for failed request: 7f601b72-480c-4b0b-81d5-f5ce385da7db
+2026-02-14 19:00:00.463 [error] You've reached your monthly chat messages limit. Upgrade to Copilot Pro (30-day free trial) or wait for your limit to reset.
+2026-02-14 19:00:00.698 [info] Logged in as labalos
+2026-02-14 19:00:01.346 [info] Got Copilot token for labalos
+2026-02-14 19:00:01.363 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 19:00:01.710 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-14 19:15:02.168 [info] Fetched model metadata in 394ms 869119dc-2d18-412c-ad37-68c8f85ee7bd

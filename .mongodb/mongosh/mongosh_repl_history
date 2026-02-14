@@ -1,0 +1,94 @@
+db.usuarios.find({ email: "abainf@gmail.com" }).pretty()
+).pretty()
+  { email: 1, rol: 1 }
+  { email: "abainf@gmail.com" },
+db.usuarios.find(
+).pretty()
+  { email: 1, rol: 1 }
+  { email: "abainf@gmail.com" },
+db.usuarios.find({ email: "abainf@gmail.com" }, { email: 1, rol: 1 }).pretty()db.usuarios.find(
+# Verificar
+)
+  { $set: { rol: "admin" } }
+  { email: "abainf@gmail.com" },
+db.usuarios.updateOne(
+# Promover a admin (ajusta el email)
+db.usuarios.find().pretty()
+# Ver usuarios
+docker exec -it mongodb mongosh proyectos_db
+# Entrar al contenedor y a la BD
+exit
+db.usuarios.find().limit(5).pretty()
+db.usuarios.find({ email: "admin@gmail.com" }).pretty()
+db.usuarios.countDocuments()
+use proyectos_db
+exit
+show collections
+db.solicituds.renameCollection("solicitudes")
+use proyectos_db
+exit
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+use proyectos_db
+exit
+show dbs
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+use portafolio
+exit
+ss -ltnp | grep 27017
+exit
+portafolio> db.proyectos.find().pretty()
+0
+portafolio> db.proyectos.countDocuments()
+portafolio> show collections
+Invalid REPL keyword
+portafolio> .show collections
+------
+   2026-02-10T19:36:36.092+00:00: Soft rlimits too low
+   2026-02-10T19:36:36.091+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2026-02-10T19:36:35.776+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   The server generated these startup warnings when booting
+------
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+.show collections
+exit
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+use portafolio
+exit
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+use portafolio
+exit
+echo $MONGODB_URI
+db.proyectos.countDocuments()
+db.proyectos.find().limit(5).pretty()
+show collectionshow collections
+.show collections
+exit
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+use portafolio
+exit
+db.proyectos.find().pretty()
+db.proyectos.countDocuments()
+show collections
+use portafolio
+exit
+echo $MONGODB_URI
+db.proyectos.countDocuments()
+db.proyectos.find().limit(5).pretty()
+show collectionscho $MONGODB_URI
+db.proyectos.countDocuments()
+db.proyectos.find().limit(5).pretty()
+show collectionstos.countDocuments()
+db.proyectos.find().limit(5).pretty()
+show collections

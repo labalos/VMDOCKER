@@ -1,0 +1,15 @@
+2026-02-13 17:58:51.673 [info] Nivel de registro: Info
+2026-02-13 17:58:55.042 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.
+2026-02-13 18:52:08.374 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for labalos/nombre-repo: GraphqlResponseError: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.
+2026-02-13 18:52:23.748 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.
+2026-02-13 18:52:23.748 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.
+2026-02-13 18:52:23.763 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.
+2026-02-13 18:52:23.798 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.
+2026-02-13 19:01:58.027 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for labalos/nombre-repo: GraphqlResponseError: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.

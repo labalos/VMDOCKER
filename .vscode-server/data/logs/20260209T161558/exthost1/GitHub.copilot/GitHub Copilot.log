@@ -1,4 +1,0 @@
-2026-02-09 16:18:59.065 [info] [certificates] Removed 3 expired certificates
-2026-02-09 16:19:00.509 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
-2026-02-09 16:19:00.510 [info] [code-referencing] Public code references are enabled.
-2026-02-09 16:19:00.763 [error] [default] Failed to fetch models from CAPI { status: 500, statusText: '' }

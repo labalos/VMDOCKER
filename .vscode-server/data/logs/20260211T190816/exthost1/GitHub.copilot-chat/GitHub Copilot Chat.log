@@ -1,0 +1,13 @@
+2026-02-11 19:08:25.646 [info] Can't use the Electron fetcher in this environment.
+2026-02-11 19:08:25.646 [info] Using the Node fetch fetcher.
+2026-02-11 19:08:25.646 [info] Initializing Git extension service.
+2026-02-11 19:08:25.646 [info] Successfully activated the vscode.git extension.
+2026-02-11 19:08:25.646 [info] Enablement state of the vscode.git extension: true.
+2026-02-11 19:08:25.646 [info] Successfully registered Git commit message provider.
+2026-02-11 19:08:26.149 [info] Logged in as labalos
+2026-02-11 19:08:27.652 [info] Got Copilot token for labalos
+2026-02-11 19:08:28.045 [info] copilot token chat_enabled: true, sku: trial_30_monthly_subscriber_quota
+2026-02-11 19:08:28.045 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-11 19:08:28.069 [info] Registering default platform agent...
+2026-02-11 19:08:28.444 [info] Fetched model metadata in 777ms c9aa4d2b-0402-457a-ab2e-652ec8935b33
+2026-02-11 19:08:28.589 [info] activationBlocker from 'languageModelAccess' took for 2202ms

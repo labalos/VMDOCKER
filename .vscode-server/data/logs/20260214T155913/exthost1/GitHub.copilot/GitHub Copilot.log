@@ -1,0 +1,56 @@
+2026-02-14 15:59:26.752 [info] [certificates] Removed 3 expired certificates
+2026-02-14 15:59:27.572 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-14 15:59:27.573 [info] [code-referencing] Public code references are enabled.
+2026-02-14 16:09:05.653 [warning] [relatedFiles] unknown language shellscript
+2026-02-14 16:09:06.568 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 463.70756100001745 ms
+2026-02-14 16:09:06.580 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '0e4494b5-22ce-45ed-a8ae-52fa59151ab0',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-14 16:09:06.584 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '0e4494b5-22ce-45ed-a8ae-52fa59151ab0',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-14 16:09:06.591 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-14 16:09:06.593 [info] [streamChoices] request done: headerRequestId: [0e4494b5-22ce-45ed-a8ae-52fa59151ab0] model deployment ID: []
+2026-02-14 18:42:26.698 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 456.1163669992238 ms
+2026-02-14 18:42:26.715 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8ed5722c-1e4e-489a-85ff-ee6ef9cff6fd',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-14 18:42:26.717 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8ed5722c-1e4e-489a-85ff-ee6ef9cff6fd',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-14 18:42:26.720 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-14 18:42:26.746 [info] [streamChoices] request done: headerRequestId: [8ed5722c-1e4e-489a-85ff-ee6ef9cff6fd] model deployment ID: []
+2026-02-14 19:14:09.142 [warning] [relatedFiles] unknown language properties
+2026-02-14 19:14:09.699 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/copilot-codex/completions] took 368.6039899997413 ms
+2026-02-14 19:14:09.705 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '5acea684-09d0-443d-93f7-e36d5dac3dbb',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-14 19:14:09.709 [error] [streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '5acea684-09d0-443d-93f7-e36d5dac3dbb',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+2026-02-14 19:14:09.713 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-14 19:14:09.752 [info] [streamChoices] request done: headerRequestId: [5acea684-09d0-443d-93f7-e36d5dac3dbb] model deployment ID: []

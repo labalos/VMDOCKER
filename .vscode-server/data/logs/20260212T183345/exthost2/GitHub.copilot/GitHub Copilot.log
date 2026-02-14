@@ -1,0 +1,3 @@
+2026-02-12 23:09:13.613 [info] [certificates] Removed 3 expired certificates
+2026-02-12 23:09:14.321 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2026-02-12 23:09:14.322 [info] [code-referencing] Public code references are enabled.

@@ -35,3 +35,93 @@
 2026-02-10 17:36:26.790 [info] [<unknown>][4655ebb3][ExtensionHostConnection] <1495> Extension Host Process exited with code: 0, signal: null.
 2026-02-10 20:16:19.490 [error] Error: connect ECONNREFUSED 127.0.0.1:65371
     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 20:52:35.359 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 20:52:35.614 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 20:57:17.761 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 20:57:18.018 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 21:14:37.556 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 21:15:02.987 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 21:15:03.237 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 21:28:55.539 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 21:28:55.790 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 22:13:49.659 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 22:14:18.826 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 22:31:01.567 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 23:29:15.939 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 23:45:30.888 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-10 23:46:01.188 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-11 00:43:09.877 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.889 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.899 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.901 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.911 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.913 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.919 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.953 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.977 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.979 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.980 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.984 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.985 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.988 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.993 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:09.994 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.039 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.040 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.050 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.051 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.052 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.052 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.053 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.055 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.056 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.062 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.063 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.068 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.069 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.070 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.071 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.080 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.081 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.082 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.084 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:10.085 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.796 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.797 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.811 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.817 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.825 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.831 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.834 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.838 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.839 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.841 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.850 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.851 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.854 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.859 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.861 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.872 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.873 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.876 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 00:43:13.882 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-02-11 01:09:37.997 [error] Error: connect ECONNREFUSED 127.0.0.1:5173
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)
+2026-02-11 01:37:33.394 [info] [<unknown>][ff621685][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-02-11 01:37:34.347 [info] [<unknown>][0c5ea0a5][ExtensionHostConnection] <3063> Extension Host Process exited with code: 0, signal: null.
+2026-02-11 01:37:34.347 [info] Last EH closed, waiting before shutting down

@@ -1225,3 +1225,629 @@ const usuario = await Usuario.findOne({ email });
 cd backend/
 const usuario = await Usuario.findOne({ email });
 ls
+db.proyectos.find() exit
+curl http://localhost:3001/api/proyectos
+git init
+git add .
+git commit -m "Initial commit: Full Stack project"
+git config --global user.email "abainf@gmail.com"
+git config --global user.name "Leonardo"
+git commit -m "Initial commit: Full Stack project"
+git branch -m main
+git remote add origin https://github.com/labalos/nombre-repo.git
+git push -u origin main
+curl http://localhost:3001/api/proyectos
+curl -X POST http://localhost:3001/api/proyectos -H "Content-Type: application/json" -d '{"titulo": "Proyecto 1", "descripcion": "Descripción del proyecto", "categoria": "Categoría 1"}'
+curl -X PUT http://localhost:3001/api/proyectos/<ID_DEL_PROYECTO> -H "Content-Type: application/json" -d '{"titulo": "Proyecto actualizado"}'
+curl -X DELETE http://localhost:3001/api/proyectos/<ID_DEL_PROYECTO>
+use <nombre_de_tu_base_de_datos>
+db.proyectos.find()
+cd frontend/
+ls
+curl http://localhost:3001/health
+npm run dev
+cd backend/
+ls
+npm start
+npm install morgan
+npm start# MongoDB
+MONGO_URI=mongodb://localhost:27017/portafolio
+# Puerto del backend
+PORT=3001
+NODE_ENV=development
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=dz5f818wn
+CLOUDINARY_API_KEY=225351326824431
+CLOUDINARY_API_SECRET=_4MfOqWviAceCrGzYsR85-oIk44
+# JWT
+JWT_SECRET=unasecretomuylargo123
+# Email
+EMAIL_USER=abainf@gmail.com
+EMAIL_PASS=eokbnkjiwdnrofoz
+npm start
+sed -i "s|require('../models/Proyecto')|require('../../models/Proyecto')|g" routes/admin/proyectos.js
+sed -i "s|require(\"../middleware/auth\")|require(\"../../middleware/auth\")|g" routes/admin/proyectos.js
+sed -i "s|require(\"../middleware/upload\")|require(\"../../middleware/upload\")|g" routes/admin/proyectos.js
+cat routes/admin/proyectos.js | head -10
+npm start
+clear
+npm start
+mongod
+docker run -d -p 27017:27017 --name mongodb mongo:latest
+npm start
+ps aux | grep mongod
+docker run -d -p 27017:27017 --name mongodb mongo:latest
+docker start mongodb
+docker ps | grep mongo
+npm start
+docker ps | grep mongo
+docker start mongodb
+sleep 20
+npm start
+docker logs mongodb
+docker stop mongodb
+docker rm mongodb
+docker run -d -p 27017:27017 --name mongodb mongo:4.4
+sleep 15
+npm start
+curl http://localhost:3001/health
+curl http://localhost:3001/
+curl http://localhost:3001/api/debug/auth
+lsof -i :3001
+pkill -f "node server.js"
+npm start
+curl http://localhost:3001/api/proyecto
+npm start
+clear
+npm start
+use <nombre_de_tu_base_de_datos>
+db.proyectos.find()
+clear
+cd frontend/
+npm run dev
+ls
+cd ..
+ls
+cd backend/
+ls
+clear
+npm start
+ss -ltnp | grep 3001
+clear
+node /home/leo/backend/scripts/create_admin.js
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"123456"}'
+curl -i http://localhost:3001/health
+node /home/leo/backend/scripts/create_admin.js
+curl -i http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"123456"}'
+cd ..
+cd frontend/
+ls
+npm run dev
+npm start
+cd c
+cd backend/
+npm start
+curl -X POST http://localhost:3001/api/proyectos -H "Content-Type: application/json" -d '{"titulo": "Proyecto 1", "descripcion": "Descripción del proyecto", "categoria": "Categoría 1"}'
+npm start
+curl http://localhost:3001/api/admin/proyectos
+npm start
+curl -i http://localhost:3001/api/proyectos
+npm start
+pkill -f "node server.js"
+npm start
+pkill -f "node server.js" || true
+npm start
+pkill -f "node server.js" || true
+npm start
+# Respaldar
+cp /home/leo/backend/middleware/auth.js /home/leo/backend/middleware/auth.js.bak
+# Eliminar cualquier línea que contenga 'router.'
+sed -i '/router\./d' /home/leo/backend/middleware/auth.js
+# Opcional: eliminar todo lo que esté después del cierre del middleware
+awk 'BEGIN{p=1}/^};/{print; exit} p{print}' /home/leo/backend/middleware/auth.js > /home/leo/backend/middleware/auth.clean.js && mv /home/leo/backend/middleware/auth.clean.js /home/leo/backend/middleware/auth.js
+pkill -f "node server.js" || true
+npm start
+curl -i http://localhost:3001/api/proyectos
+npm start
+pkill -f "node server.js" || true
+npm start
+curl -s http://localhost:3001/api/debug/db
+npm start
+mongosh
+use proyectos_db
+show collections
+db.proyectos.countDocuments() db.proyectos.find().pretty()
+curl -s http://localhost:3001/api/debug/db | jq
+curl -s http://localhost:3001/api/debug/db/counts
+npm start
+clear
+npm run start || node server.js
+npm start
+node /home/leo/backend/scripts/create_admin.js
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"123456"}'
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"123456"}'
+cd /home/leo/backend
+npm run start || node server.js
+curl -i http://localhost:3001/health
+cd /home/leo/backend
+npm run start || node server.js
+cd /home/leo
+find frontend backend -mtime -1 -type f
+cd /home/leo/frontend && rm -rf node_modules && npm ci
+cd /home/leo/backend && rm -rf node_modules && npm ci
+cd /home/leo/backend && node server.js
+cd /home/leo/frontend && npm run dev
+cd ..
+cd backend/
+cat .env | grep -E "(MONGO|DB|DATABASE)"
+grep -r "MONGO" /home/leo/backend/*.js 2>/dev/null | grep -v node_modules
+sed -i '/^MONGO_URI=/d' .env
+sudo systemctl start mongod 2>/dev/null || docker start mongodb 2>/dev/null || docker run -d --name mongodb -p 27017:27017 mongo:latest
+npm start
+cd backend/
+mongosh
+echo $MONGODB_URI
+curl -i "http://localhost:3001/api/proyectos"
+curl -i "http://localhost:3001/api/proyectos?search=Demo&page=1&limit=5"
+'/home/leo/backend/routes/solicitudes.js'clear
+clear
+curl -i "http://localhost:3001/api/proyectos"
+curl -i "http://localhost:3001/api/proyectos?search=Demo&page=1&limit=5"
+curl -i "http://localhost:3001/api/proyectos"
+curl -i "http://localhost:3001/api/proyectos?search=Demo&page=1&limit=5"
+use portafolio
+show collections
+db.proyectos.countDocuments() db.proyectos.find().pretty()
+mongosh
+npm start
+curl -s http://localhost:3001/api/debug/db
+npm start
+curl -s http://localhost:3001/api/debug/db
+curl -s http://localhost:3001/api/debug/db | jq
+db.proyectos.find().pretty()
+mongosh "mongodb://localhost:27017/proyectos_db"
+npm start
+grep -Rni "useNewUrlParser\|useUnifiedTopology" /home/leo/backend
+npm start
+curl -s http://localhost:3001/health
+curl -s http://localhost:3001/api/debug/db
+pkill -f "node server.js" || true
+npm start
+npm ls mongoose
+grep -Rni "useNewUrlParser\|useUnifiedTopology" /home/leo/backend
+pkill -f "node server.js" || true
+npm start
+curl -s http://localhost:3001/health
+sed -i '/useNewUrlParser/d' /home/leo/backend/server.js
+sed -i '/useUnifiedTopology/d' /home/leo/backend/server.js
+sed -i "/mongoose\.set(.*useNewUrlParser.*)/d" /home/leo/backend/server.js
+sed -i "/mongoose\.set(.*useUnifiedTopology.*)/d" /home/leo/backend/server.js
+sed -i "s/mongoose\.connect(.*process\.env\.MONGO.*)/mongoose.connect(MONGODB_URI)/" /home/leo/backend/server.js
+echo "Verificando líneas obsoletas:"
+grep -Rni "useNewUrlParser\|useUnifiedTopology" /home/leo/backend/server.js || echo "OK: server.js limpio"
+pkill -f "node server.js" || true
+npm start
+node /home/leo/backend/scripts/seed_proyectos.js
+curl -s http://localhost:3001/api/debug/db/counts
+curl -i http://localhost:3001/api/proyectos
+clear
+use proyectos_db
+mongosh
+curl -s http://localhost:3001/api/debug/db/counts
+# Backend
+npm start
+# Frontend
+cd /home/leo/frontend && npm run dev
+npm run dev
+clear
+cd ..
+ls
+cd backend/
+# Backend
+cd /home/leo/backend
+npm run start || node server.js
+# Verifica que escucha
+ss -ltnp | grep 3001
+curl -i http://localhost:3001/health
+curl -i http://192.168.1.28:3001/health
+clear
+npm run start || node server.js
+ss -ltnp | grep 3001
+curl -i http://localhost:3001/health
+curl -i http://192.168.1.28:3001/health
+curl -i http://localhost:3001/health
+curl -i http://192.168.1.28:3001/health
+curl -i http://localhost:3001/api/proyectos
+curl -i http://192.168.1.28:3001/api/proyectos
+cd /home/leo/frontend
+npm run dev
+cd /home/leo/frontend
+npm run dev
+cd ..
+cd backend/
+lsof -i -P | grep 30903
+# Ver qué está haciendo el proceso ahora
+strace -p 30903 -e trace=network 2>&1 | head -20
+# Ver logs del proceso
+cat /proc/30903/fd/1 2>/dev/null || echo "No hay logs accesibles"# Ver logs del proceso
+cat /proc/30903/fd/1 2>/dev/null || echo "No hay logs accesibles"
+ss -lntp | grep 3001 || lsof -i :3001
+curl -i http://localhost:3001/health
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN>"
+ss -tlnp | grep 3001
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: TU_TOKEN_AQUI"
+grep -r "router\." /home/leo/backend/routes/ | grep -E "(get|post|put|patch|delete)" | head -20
+curl http://localhost:3001/api/proyectos
+clear
+curl http://localhost:3001/api/admin/proyectos
+curl "http://localhost:3001/api/admin/proyectos?search=proyecto&categoria=tecnologia"
+curl http://localhost:3001/api/admin/proyectos
+curl "http://localhost:3001/api/admin/proyectos?search=proyecto&categoria=tecnologia"
+curl -X GET http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN_VALIDO>"
+mongo
+mongo --version
+curl -i http://localhost:3001/api/proyectos
+curl -X POST http://localhost:3001/api/proyectos -H "Content-Type: application/json" -d '{"titulo":"Demo","descripcion":"Proyecto demo","categoria":"General","ubicacion":"CDMX","imagenes":[]}'
+curl -X POST http://localhost:3001/api/admin/proyectos -H "Content-Type: application/json" -H "x-token: <TOKEN_VALIDO>" -d '{"titulo":"Admin Demo","descripcion":"Proyecto admin","categoria":"General","ubicacion":"CDMX","imagenes":[]}'
+clear
+cd backend/
+cd services/
+cd ..
+cd scripts
+ls
+node /home/leo/backend/scripts/seed_proyectos.js
+curl -i http://localhost:3001/api/proyectos
+node /home/leo/backend/scripts/seed_proyectos.js
+mkdir -p /home/leo/backend/scripts
+node /home/leo/backend/scripts/seed_proyectos.js
+curl -i http://localhost:3001/api/proyectos
+curl -X POST http://localhost:3001/api/proyectos -H "Content-Type: application/json" -d '{"titulo":"Demo","descripcion":"Proyecto demo","categoria":"General","ubicacion":"CDMX","imagenes":[]}'
+curl -X POST http://localhost:3001/api/proyectos -H "Content-Type: application/json" -H "x-token: <TOKEN_VALIDO>" -d '{"titulo":"Demo","descripcion":"Proyecto demo","categoria":"General","ubicacion":"CDMX","imagenes":[]}'
+curl -X POST http://localhost:3001/api/auth/register -H "Content-Type: application/json" -d '{"nombre":"Admin","email":"admin@gmail.com","password":"123456"}'
+curl -X POST http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"admin@gmail.com","password":"123456"}'
+curl -X POST http://localhost:3001/api/admin/proyectos -H "Content-Type: application/json" -H "x-token: <TOKEN_VALIDO>" -d '{"titulo":"Demo","descripcion":"Proyecto demo","categoria":"General","ubicacion":"CDMX","imagenes":[]}'
+curl -i http://localhost:3001/api/proyectos
+node /home/leo/backend/scripts/seed_proyectos.js
+curl -i http://localhost:3001/api/proyectos
+curl -X POST http://localhost:3001/api/admin/proyectos -H "Content-Type: application/json" -H "x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGJhODRlY2NkYmE3MGIxN2RhNDVmMCIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNzcwNzYwMjk5LCJleHAiOjE3NzA4NDY2OTl9.ZQNMHS3IFuhrH6hgMRqcYEZGuRT6GZWm6VUg573_ua0" -d '{"titulo":"Demo","descripcion":"Proyecto demo","categoria":"General","ubicacion":"CDMX","imagenes":[]}'
+curl -i http://localhost:3001/api/proyectos
+curl -i http://localhost:3001/api/proyectos/698ba89dccdba70b17da45f6
+clear
+curl -i http://localhost:3001/api/proyectos/698ba89dccdba70b17da45f6
+curl -X PUT http://localhost:3001/api/proyectos/698ba89dccdba70b17da45f6 -H "Content-Type: application/json" -d '{"descripcion":"Proyecto demo actualizado"}'
+curl -X PUT http://localhost:3001/api/admin/proyectos/698ba89dccdba70b17da45f6 -H "Content-Type: application/json" -H "x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." -d '{"descripcion":"Proyecto demo actualizado"}'
+pkill -f "node server.js" || true
+npm start
+curl -i http://localhost:3001/api/proyectos
+curl -X GET http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN_VALIDO>"
+curl -i http://localhost:3001/api/proyectos
+curl -X GET http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN_VALIDO>"
+curl -i http://localhost:3001/api/proyectos
+curl -X GET http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN_VALIDO>"
+mongosh "mongodb://localhost:27017/portafolio"
+curl -s http://localhost:3001/api/debug/db
+mongosh "mongodb://localhost:27017/portafolio"
+use portafolio
+show collections
+db.proyectos.countDocuments() db.proyectos.find().pretty()
+ss -ltnp | grep 27017
+curl -s http://localhost:3001/api/debug/db
+mongosh "mongodb://localhost:27017/portafolio"
+mongosh
+curl -i http://192.168.1.28:3001/api/proyectos
+curl -i http://localhost:3001/health
+curl -i http://192.168.1.28:3001/health
+cd /home/leo/frontend
+npm run dev
+pkill -f "node server.js" || true
+npm start
+ss -ltnp | grep 3001
+curl -i http://localhost:3001/health
+curl -i http://192.168.1.28:3001/health
+clear
+cd ..
+cd backend/
+ls
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"admin@gmail.com","password":"tu_password"}'
+clear
+curl -s http://localhost:3001/api/debug/db/counts
+clear
+use proyectos_db
+mongosh
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: $(jq -r .token <<< '{"token":"'"$(localStorageToken)"'"}')"
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN>"
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"123456"}'
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN>"
+cd /home/leo
+git init
+git add frontend backend
+git commit -m "Estado estable"
+cd backend/
+npm start
+curl -i http://localhost:3001/health
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN>"
+curl -i http://localhost:3001/health
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: <TOKEN>"
+ps aux | grep node
+netstat -tlnp | grep 3001
+ss -tlnp | grep 3001
+cd /home/leo/backend && npm start 2>&1 | head -30
+cd /home/leo/backend && npm start
+ls
+cd backend/
+npm start
+docker update --restart=always mongodb
+docker inspect mongodb | grep -A 5 "RestartPolicy"
+sudo reboot
+ls
+cd backend/
+ls
+npm start
+sudo systemctl start mongod
+sudo systemctl status mongod
+sudo systemctl start mongod
+sudo systemctl status mongod
+# Intenta arrancar backend y captura errores
+cd /home/leo/backend && npm start 2>&1 | head -50
+# Intenta arrancar frontend y captura errores
+cd /home/leo/frontend && npm run dev 2>&1 | head -30
+grep -r "Solicitud" /home/leo/backend/routes/ --include="*.js"
+head -20 /home/leo/backend/models/Solicitudes.js
+mv /home/leo/backend/models/Solicitudes.js /home/leo/backend/models/Solicitud.js
+clear
+cd ..
+cd backend/
+curl -i http://localhost:3001/api/admin/solicitudes -H "x-token: <TOKEN>"
+ps aux | grep node
+ls -la /home/leo/backend/models/
+# Ejecuta estos comandos para cambiar Solicitudes a Solicitud
+sed -i "s|models/Solicitudes|models/Solicitud|g" /home/leo/backend/routes/solicitudes.js
+sed -i "s|models/Solicitudes|models/Solicitud|g" /home/leo/backend/routes/admin/solicitudes.js
+# Verifica cambios
+grep "require.*models" /home/leo/backend/routes/solicitudes.js
+grep "require.*models" /home/leo/backend/routes/admin/solicitudes.js
+cd /home/leo/backend
+npm start
+curl -i http://localhost:3001/api/admin/solicitudes -H "x-token: <TOKEN>"
+# Puerto en .env
+cat /home/leo/backend/.env | grep -i port
+# Puerto en el que Node escucha
+sudo ss -tlnp | grep node
+ps aux | grep node
+# Arranca MongoDB si no está
+docker ps | grep mongo || docker run -d --name mongodb -p 27017:27017 -v /home/leo/mongo-data:/data/db mongo:6
+# Levanta backend
+cd /home/leo/backend
+npm start
+docker start mongodb
+docker ps | grep mongo
+cd /home/leo/backend && npm start
+cd frontend/
+npm run dev
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: $TOKEN"
+cd backend/
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: $TOKEN"
+echo "$TOKEN"
+printf "%q\n" "$TOKEN"
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: $TOKEN"
+echo "$TOKEN"
+const token = jwt.sign(
+curl -i -X POST http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"abalos"}'
+echo $JWT_SECRET
+cd /home/leo/backend && npm start
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"abalos"}'
+curl -i -X POST http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"abalos"}'
+cleear
+curl -i -X POST http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"abalos"}'
+curl -i -X POST http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"test":"hola"}'
+cd /home/leo/backend && npm start
+curl -i -X POST http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"abalos"}'
+grep -i JWT_SECRET /home/leo/backend/.env
+curl -i -X POST http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"abalos"}'
+docker exec -it mongodb mongosh proyectos_db --eval 'db.usuarios.find({email:"abainf@gmail.com"},{email:1,password:1,rol:1}).pretty()'
+# Ver usuarios (host Linux, red host)
+docker run --rm -it --network host mongodb/mongosh:2.2.6   mongosh "mongodb://localhost:27017/proyectos_db"   --eval 'db.usuarios.find({email:"abainf@gmail.com"},{email:1,password:1,rol:1}).pretty()'
+# Promover a admin
+docker run --rm -it --network host mongodb/mongosh:2.2.6   mongosh "mongodb://localhost:27017/proyectos_db"   --eval 'db.usuarios.updateOne({email:"abainf@gmail.com"},{$set:{rol:"admin"}})'
+cd frontend/
+npm run dev
+cd /home/leo/backend && npm start
+cd /home/leo/frontend && npm run dev
+cd ba
+cd..
+cd fr
+cd ..
+cd bs
+ba
+cd backend/
+clear
+export TOKEN="$(curl -s http://localhost:3001/api/auth/login -H 'Content-Type: application/json' -d '{"email":"abainf@gmail.com","password":"123456"}' | jq -r .token)"
+curl -i http://localhost:3001/api/admin/solicitudes -H "x-token: $TOKEN"
+curl -i http://localhost:3001/api/auth/me -H "x-token: $TOKEN"
+curl -i http://localhost:3001/proyectos -H "x-token: $TOKEN"
+curl -i http://localhost:3001/api/proyectos
+GET http://localhost:3001/api/proyectos
+# públicos
+curl -i http://localhost:3001/api/proyectos
+curl -i -X POST http://localhost:3001/api/solicitudes -H "Content-Type: application/json" -d '{"nombre":"Test","telefono":"555","service":"Pintura"}'
+# auth y admin
+TOKEN=$(curl -s http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"123456"}' | jq -r .token)
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: $TOKEN"
+curl -i http://localhost:3001/api/admin/solicitudes -H "x-token: $TOKEN"
+mongosh
+curl -i -X POST http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"abalos"}'
+clear
+cd backend/
+curl -i -X POST http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"abalos"}'
+curl -i -X POST http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"abalos"}'
+cd /home/leo/backend && npm start
+curl -i -X POST http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"abalos"}'
+curl -i -X POST http://localhost:3001/api/auth/login   -H "Content-Type: application/json"   -d '{"email":"abainf@gmail.com","password":"abalos"}'
+docker ps | grep mongo
+cd /home/leo/backend && npm start
+export TOKEN="eyJhbGciOi..."   # pega el token real del login
+curl -i http://localhost:3001/api/admin/proyectos -H "x-token: $TOKEN"
+curl -i http://localhost:3001/api/admin/solicitudes -H "x-token: $TOKEN"
+ss -tlnp | grep 3001
+docker ps | grep mongodb || docker start mongodb || docker run -d --name mongodb -p 27017:27017 -v /home/leo/mongo-data:/data/db mongo:6
+cd /home/leo/backend
+npm start
+curl -i http://localhost:3001/api/auth/login -H "Content-Type: application/json" -d '{"email":"abainf@gmail.com","password":"abalos"}'
+# ¿Está escuchando?
+ss -tlnp | grep 3001
+# Arranca backend
+cd /home/leo/backend
+npm start
+ss -tlnp | grep 3001
+curl -X POST http://localhost:3001/api/solicitudes   -H "Content-Type: application/json"   -d '{"nombre":"Test User","telefono":"1234567890","service":"Instalación"}'
+cd /home/leo/backend
+npm start
+curl -X POST http://localhost:3001/api/solicitudes   -H "Content-Type: application/json"   -d '{"nombre":"Otra Prueba","telefono":"0987654321","service":"Pintura"}'
+TOKEN=<tu_token_jwt>
+curl -i http://localhost:3001/api/admin/solicitudes -H "x-token: $TOKEN"
+curl http://localhost:3001/api/admin/solicitudes   -H "x-token: TU_TOKEN_JWT"
+cd /home/leo/backend && npm start
+cd /home/leo/frontend && npm run dev
+ls 
+cd ..
+ls
+ls leo
+cd leo
+ls
+clear
+ls
+cd backend/
+ls
+exit
+ls
+cd backend/
+ls
+npm start
+docker compose down
+docker compose up --build
+npm start
+docker compose down
+docker compose pull
+[200~docker compose down
+docker compose down
+mongodb  | {"t":{"$date":"..."},"s":"I", ... "msg":"Waiting for connections"}
+curl http://localhost:3001/api/proyectos
+docker compose restart frontend
+docker compose down
+docker compose up -d --build
+grep -R "/api" -n frontend/src
+cd backend/
+curl -X POST http://localhost:3001/api/proyectos   -H "Content-Type: application/json"   -d '{
+    "titulo": "Proyecto Test",
+    "descripcion": "Este es un proyecto de prueba",
+    "categoria": "General"
+  }'
+cd backend/
+docker exec -it backend sh
+docker ps -a
+docker compose down -v
+docker compose build --no-cache
+docker ps
+docker compose up
+sudo lsof -i :5173
+sudo kill -9 2399
+sudo lsof -i :5173
+docker compose up -d
+docker ps
+npm start
+docker compose restart backend
+curl -X POST http://localhost:3001/api/proyectos   -H "Content-Type: application/json"   -d '{"titulo":"Proyecto Test","descripcion":"Demo","categoria":"General"}'
+docker exec -it backend sh
+docker compose down
+docker compose build --no-cache backend
+docker compose up -d
+docker compose down
+docker compose build --no-cache backend
+docker compose up -d
+curl -X POST http://localhost:3001/api/proyectos   -H "Content-Type: application/json"   -d '{"titulo":"Proyecto Test","descripcion":"Demo","categoria":"General"}'
+clear
+grep -R "/api" -n frontend/src
+Soy GitHub Copilot.
+Tu Login.jsx ya está correcto usando import.meta.env.VITE_API_BASE. Falta actualizar las páginas que aún usan rutas “/api”.
+Aplica estos cambios:
+```jsx
+// ...existing code...
+import { fetchWithAuth } from '../helpers/fetchWithAuth';
+// ...existing code...
+async function cargarProtegida() {
+  try {
+    const res = await fetchWithAuth('/protegida', { method: 'GET' });
+    // ...existing code...
+  } catch (e) {
+    // ...existing code...
+  }
+}
+// ...existing code...
+```
+```jsx
+// ...existing code...
+useEffect(() => {
+  const url = `${import.meta.env.VITE_API_BASE}/proyectos`;
+  fetch(url)
+    .then(r => {
+      return r.json();
+    })
+    .then(setItems)
+    .catch(e => alert(e.message));
+}, []);
+// ...existing code...
+```
+Reconstruye el frontend para cargar las env vars:
+- docker compose down
+- docker compose up --build -d
+- docker logs -f frontend
+Verifica que no quedan “/api” hardcodeados:
+- grep -R "/api" -n frontend/src
+clear
+- grep -R "/api" -n frontend/src
+grep -R "/api" -n frontend/src
+npm run dev
+cd frontend/
+npm run dev
+clear
+npm run dev
+rm -rf node_modules/.vite
+clear
+cd backend/\
+ls
+npm start
+docker compose up -d
+docker compose up -d frontend
+docker logs frontend
+docker compose down -v
+own 5/5
+docker compose down -v
+docker compose up -d --build
+docker ps -a
+docker logs frontend
+docker compose down -v
+docker compose build --no-cache
+docker compose up -d
+docker ps
+docker logs frontend
+cd ..
+cd frontend/
+cd ..
+cd backend/
+docker compose up -d frontend
+curl http://localhost:3001/api/proyectos
+docker exec -it mongodb mongosh
+docker exec -it mongodb mongo
+docker ps
+ls
+cd ..
+ls
+docker compose down
+docker compose up -d
+docker ps
+docker compose restart frontend
+clear
+docker compose down
+docker compose up --build -d
+docker logs -f frontend
+ls

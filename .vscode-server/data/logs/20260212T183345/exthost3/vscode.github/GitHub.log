@@ -1,0 +1,3 @@
+2026-02-12 23:09:38.439 [info] Nivel de registro: Info
+2026-02-12 23:09:41.210 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'labalos/nombre-repo'.

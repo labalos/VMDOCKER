@@ -1,0 +1,64 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/leo/.cache/typescript/5.7/.npmrc
+5 silly config load:file:/home/leo/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install @types/react@ts5.7
+8 verbose argv "install" "--ignore-scripts" "@types/react@ts5.7" "--save-dev" "--user-agent" "typesInstaller/5.7.3"
+9 verbose logfile logs-max:10 dir:/home/leo/.npm/_logs/2026-02-14T15_59_30_892Z-
+10 verbose logfile /home/leo/.npm/_logs/2026-02-14T15_59_30_892Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@types%2freact 252ms (cache revalidated)
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:658957 disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest @types/react@19.2.14
+19 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2freact 90ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2588986 disposed:false
+22 silly placeDep ROOT @types/react@19.2.14 REPLACE for:  want: 19.2.14
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@popperjs/core': [ '2.11.8' ],
+24 silly audit   '@types/body-parser': [ '1.19.6' ],
+24 silly audit   '@types/bootstrap': [ '5.2.10' ],
+24 silly audit   '@types/busboy': [ '1.5.4' ],
+24 silly audit   '@types/concat-stream': [ '2.0.3' ],
+24 silly audit   '@types/connect': [ '3.4.38' ],
+24 silly audit   '@types/cors': [ '2.8.19' ],
+24 silly audit   '@types/express': [ '5.0.6' ],
+24 silly audit   '@types/express-serve-static-core': [ '5.1.1' ],
+24 silly audit   '@types/http-errors': [ '2.0.5' ],
+24 silly audit   '@types/jsonwebtoken': [ '9.0.10' ],
+24 silly audit   '@types/less': [ '3.0.8' ],
+24 silly audit   '@types/morgan': [ '1.9.10' ],
+24 silly audit   '@types/ms': [ '2.1.0' ],
+24 silly audit   '@types/multer': [ '2.0.0' ],
+24 silly audit   '@types/node': [ '25.2.0' ],
+24 silly audit   '@types/nodemailer': [ '7.0.9' ],
+24 silly audit   '@types/qs': [ '6.14.0' ],
+24 silly audit   '@types/range-parser': [ '1.2.7' ],
+24 silly audit   '@types/react-dom': [ '19.2.3' ],
+24 silly audit   '@types/run-parallel': [ '1.1.2' ],
+24 silly audit   '@types/send': [ '1.2.1' ],
+24 silly audit   '@types/serve-static': [ '2.2.0' ],
+24 silly audit   '@types/stylus': [ '0.48.43' ],
+24 silly audit   '@types/type-is': [ '1.6.7' ],
+24 silly audit   '@types/xtend': [ '4.0.6' ],
+24 silly audit   csstype: [ '3.2.3' ],
+24 silly audit   'types-registry': [ '0.1.756' ],
+24 silly audit   'undici-types': [ '7.16.0' ],
+24 silly audit   '@types/react': [ '19.2.14' ]
+24 silly audit }
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 127ms
+26 silly audit report {}
+27 verbose cwd /home/leo/.cache/typescript/5.7
+28 verbose os Linux 6.8.0-100-generic
+29 verbose node v20.20.0
+30 verbose npm  v10.8.2
+31 verbose exit 0
+32 info ok

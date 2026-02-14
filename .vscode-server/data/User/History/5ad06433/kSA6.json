@@ -1,0 +1,13 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "editor.linkedEditing": true,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.lockfilesInTmp": true,
+    "remote.SSH.remotePlatform": {
+        "vm-docker": "linux"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "github.copilot.advanced": {
+        "authProvider": "github-enterprise"
+    },
+}
